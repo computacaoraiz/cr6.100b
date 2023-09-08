@@ -1,0 +1,13 @@
+Instruções e lembretes úteis
+============================
+
+Instalar novos pré-requisitos:
+  bundle install
+
+
+Rodar o Jekyll localmente:
+  bundle exec jekyll server
+
+
+Fazer o build para produção:
+  JEKYLL_ENV=production bundle exec jekyll build
