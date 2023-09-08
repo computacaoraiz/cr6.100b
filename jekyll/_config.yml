@@ -18,7 +18,7 @@ url: "https://www.cc1n.com.br" # URL padrão do site
 
 # O site começa em um subpath da URL, por exemplo, /blog? se o site começa
 # na URL padrão, deixe em branco.
-baseurl: "/"
+baseurl: ""
 
 # Linguagem padrão para o conteúdo do site:
 lang: "pt-br"
