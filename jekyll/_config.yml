@@ -14,11 +14,11 @@ description: >-
   adaptada da disciplina Harvard CS50x.
 
 # URL padrão do site
-url: "https://www.cc1n.com.br" # URL padrão do site
+url: "https://www.computacaoraiz.com.br" # URL padrão do site
 
 # O site começa em um subpath da URL, por exemplo, /blog? se o site começa
 # na URL padrão, deixe em branco.
-baseurl: ""
+baseurl: "/cr6100b"
 
 # Linguagem padrão para o conteúdo do site:
 lang: "pt-br"
