@@ -51,6 +51,11 @@ temos certeza que você vai achar a nossa disciplina surpreendente (na verdade
 estamos esperançosos de que você ache a CR6.100B até "melhor" do que a CS50, no
 sentido de que está totalmente adaptada e voltada para o Brasil).
 
+{% spoiler "Assista à um vídeo sobre a motivação para a CR6.100B e as diferenças
+com a CS50" %}
+(em breve)
+{% endspoiler %}
+
 ## 2.1. Motivação: por que adaptar e não apenas traduzir a CS50?
 Já é uma espécie de consenso de que a CS50 é uma das melhores disciplinas de
 introdução à ciência da computação que existem na Internet. E melhor ainda: o
@@ -242,6 +247,11 @@ todos os materiais da CR6.100B, para aprender o conteúdo. Depois (ou
 simultaneamente) refaça os exercícios de programação diretamente na CS50. Assim
 você terá o melhor de dois mundos: aulas e material em português, com a
 avaliação da CS50 diretamente de Harvard (e certificado de conclusão!).
+
+{% spoiler "Assista à um vídeo com sugestões de como fazer esta disciplina" %}
+(em breve)
+{% endspoiler %}
+
 
 # 4. Como ensinar a CR6.100B (ou a Harvard CS50)
 ## 4.1. Licença original da CS50:
