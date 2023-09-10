@@ -39,7 +39,7 @@ cs50:
   locale: pt-BR
   tz: America/Sao_Paulo
   description: Disciplina de introdução à Ciência da Computação, para estudantes brasileiros, adaptada da Harvard CS50x.
-  alert: warning dismissible
+#  alert: warning dismissible
   fontawesome: 082b54de62
 
 
