@@ -22,3 +22,9 @@
 * <i class="fa-solid fa-database"></i> Unidade 9: SQL
 * <i class="fa-brands fa-square-js"></i> Unidade 10: HTML, CSS, JS
 * <i class="fa-kit fa-flask"></i> Unidade 11: Flask
+* <i class="fa-solid fa-list-check"></i> Unidade 12: Tópicos
+* <i class="fa-regular fa-graduation-cap"></i> Unidade 13: Projeto final
+* <i class="fa-light fa-language"></i> Unidade 14: LP
+* <i class="fa-regular fa-alien-8bit"></i> Unidade 15: CG
+* <i class="fa-light fa-user-robot"></i> Unidade 16: IA
+* <i class="fa-sharp fa-solid fa-book"></i> Unidade 17: Teoria
