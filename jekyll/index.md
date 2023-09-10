@@ -30,7 +30,7 @@ através dos quais você pode criar aplicativos web e móveis. O curso culmina e
 um projeto final.
 
 {% spoiler "VÍDEO: introdução da CR6.100B" %}
-(em breve)
+{% video https://www.youtube.com/watch?v=eyph1kcLnVw %}
 {% endspoiler %}
 
 {% spoiler "VÍDEO: introdução da CS50" %}
