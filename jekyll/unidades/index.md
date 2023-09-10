@@ -1,0 +1,33 @@
+---
+layout: page
+title: Unidades
+---
+
+# Unidades de estudo
+<ul class="fa-ul">
+  <li><span class="fa-li fa-regular fa-book-open-reader"></span>
+      <div><strong>Unidade 0</strong>: <a href="/unidades/0/">introdução à CR6.100B</a>.</div></li>
+  <li><span class="fa-li fa-solid fa-microchip"></span>
+      <div><strong>Unidade 1</strong>: fundamentos da computação.</div></li>
+  <li><span class="fa-li fa-solid fa-gear-complex-code"></span>
+      <div><strong>Unidade 2</strong>: fundamentos da programação (Scratch e
+      Snap!).</div></li>
+  <li><span class="fa-li fa-solid fa-c"></span>
+      <div><strong>Unidade 3</strong>: linguagem C.</div></li>
+  <li><span class="fa-li fa-kit fa-array fa-lg"></span>
+      <div><strong>Unidade 4</strong>: arrays.</div></li>
+  <li><span class="fa-li fa-solid fa-arrow-down-1-9"></span>
+      <div><strong>Unidade 5</strong>: algoritmos.</div></li>
+  <li><span class="fa-li fa-regular fa-memory"></span>
+      <div><strong>Unidade 6</strong>: memória.</div></li>
+  <li><span class="fa-li fa-light fa-circle-nodes"></span>
+      <div><strong>Unidade 7</strong>: estruturas de dados.</div></li>
+  <li><span class="fa-li fa-brands fa-python"></span>
+      <div><strong>Unidade 8</strong>: linguagem Python.</div></li>
+  <li><span class="fa-li fa-solid fa-database"></span>
+      <div><strong>Unidade 9</strong>: bancos de dados e SQL.</div></li>
+  <li><span class="fa-li fa-brands fa-square-js"></span>
+      <div><strong>Unidade 10</strong>: HTML, CSS e JavaScript.</div></li>
+  <li><span class="fa-li fa-kit fa-flask"></span>
+      <div><strong>Unidade 11</strong>: Flask.</div></li>
+</ul>

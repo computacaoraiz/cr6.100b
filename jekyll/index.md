@@ -29,11 +29,11 @@ dados em bancos de dados, juntamente com **HTML**, **CSS** e **JavaScript**,
 através dos quais você pode criar aplicativos web e móveis. O curso culmina em
 um projeto final.
 
-{% spoiler "Assista à introdução da CR6.100B" %}
+{% spoiler "VÍDEO: introdução da CR6.100B" %}
 (em breve)
 {% endspoiler %}
 
-{% spoiler "Assista à introdução da CS50" %}
+{% spoiler "VÍDEO: introdução da CS50" %}
 {% video https://www.youtube.com/watch?v=3oFAJtFE8YU %}
 {% endspoiler %}
 
@@ -51,8 +51,7 @@ temos certeza que você vai achar a nossa disciplina surpreendente (na verdade
 estamos esperançosos de que você ache a CR6.100B até "melhor" do que a CS50, no
 sentido de que está totalmente adaptada e voltada para o Brasil).
 
-{% spoiler "Assista à um vídeo sobre a motivação para a CR6.100B e as diferenças
-com a CS50" %}
+{% spoiler "VÍDEO: motivação para a CR6.100B e as diferenças com a CS50" %}
 (em breve)
 {% endspoiler %}
 
@@ -174,7 +173,7 @@ Mas, mesmo assim, tenho certeza absoluta de que se você seguir a CR6.100B por
 aqui neste site, e enviar os exercícios de programação para a avaliação da CS50,
 você aprenderá tudo o que devia aprender!
 
-{% spoiler "Opções para uma tradução mais fiel à CS50" %}
+{% spoiler "TEXTO: opções se você quiser uma tradução mais fiel à CS50" %}
 Se você busca uma tradução mais fiel à CS50 original, com poucas adaptações e
 mantendo o formato original, sugerimos as seguintes opções:
 
@@ -202,7 +201,7 @@ mantendo o formato original, sugerimos as seguintes opções:
 {% endspoiler %}
 
 ## 2.3. Agradecimentos
-Nós, do **Computação Raiz**, só temos a agradeder ao prof. David Malan e a todo
+Nós, do **Computação Raiz**, só temos a agradecer ao prof. David Malan e a todo
 o staff da CS50 por disponibilizar de modo gratuito e aberto, a todas as pessoas
 do mundo, esse material de excelente qualidade. Mais ainda: por permitir que
 professores do mundo todo utilizem e façam adaptações do material para atender
@@ -248,7 +247,7 @@ simultaneamente) refaça os exercícios de programação diretamente na CS50. As
 você terá o melhor de dois mundos: aulas e material em português, com a
 avaliação da CS50 diretamente de Harvard (e certificado de conclusão!).
 
-{% spoiler "Assista à um vídeo com sugestões de como fazer esta disciplina" %}
+{% spoiler "VÍDEO: sugestões de como fazer esta disciplina" %}
 (em breve)
 {% endspoiler %}
 
