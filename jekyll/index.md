@@ -31,6 +31,8 @@ um projeto final.
 
 {% spoiler "VÍDEO: introdução da CR6.100B" %}
 {% video https://www.youtube.com/watch?v=eyph1kcLnVw %}
+<i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
+[Download dos slides do vídeo](/introducao_cr6100b.pdf)
 {% endspoiler %}
 
 {% spoiler "VÍDEO: introdução da CS50" %}
@@ -53,6 +55,8 @@ sentido de que está totalmente adaptada e voltada para o Brasil).
 
 {% spoiler "VÍDEO: motivação para a CR6.100B e as diferenças com a CS50" %}
 {% video https://www.youtube.com/watch?v=d7uDtdECwGg %}
+<i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
+[Download dos slides do vídeo](/motivacao_diferencas.pdf)
 {% endspoiler %}
 
 ## 2.1. Motivação: por que adaptar e não apenas traduzir a CS50?
@@ -249,6 +253,8 @@ avaliação da CS50 diretamente de Harvard (e certificado de conclusão!).
 
 {% spoiler "VÍDEO: sugestões de como fazer esta disciplina" %}
 {% video https://www.youtube.com/watch?v=an7aEc5du0o %}
+<i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
+[Download dos slides do vídeo](/como_fazer.pdf)
 {% endspoiler %}
 
 
