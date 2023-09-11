@@ -52,7 +52,7 @@ estamos esperançosos de que você ache a CR6.100B até "melhor" do que a CS50, 
 sentido de que está totalmente adaptada e voltada para o Brasil).
 
 {% spoiler "VÍDEO: motivação para a CR6.100B e as diferenças com a CS50" %}
-(em breve)
+{% video https://www.youtube.com/watch?v=d7uDtdECwGg %}
 {% endspoiler %}
 
 ## 2.1. Motivação: por que adaptar e não apenas traduzir a CS50?
@@ -248,7 +248,7 @@ você terá o melhor de dois mundos: aulas e material em português, com a
 avaliação da CS50 diretamente de Harvard (e certificado de conclusão!).
 
 {% spoiler "VÍDEO: sugestões de como fazer esta disciplina" %}
-(em breve)
+{% video https://www.youtube.com/watch?v=an7aEc5du0o %}
 {% endspoiler %}
 
 
