@@ -10,6 +10,27 @@ como: visão geral da disciplina, quais seus objetivos, o que esperamos que voc�
 aprenda, quais as unidades de aprendizagem, métodos de avaliação e muitas outras
 informações úteis para que seu aproveitamento seja maximizado.
 
+Sumário:
+* [Vídeo da aula](#vídeo-da-aula)
+- Material de referência nesta página:
+    * [Por que você está aqui?](#por-que-você-está-aqui)
+    * [Computação não é sobre computadores ou
+      programação](#computação-não-é-sobre-computadores-ou-programação)
+    * [O "arquipélago" da computação: visão geral da
+      disciplina](#o-arquipélago-da-computação-visão-geral-da-disciplina) 
+    * [Não desista, é muita coisa mas você
+      conseguirá!](#não-desista-é-muita-coisa-mas-você-conseguirá)
+    * [Como saber se você está indo bem ou
+      mal?](#como-saber-se-você-está-indo-bem-ou-mal)
+    * [Construção e dinâmica da CR6.100B](#construção-e-dinâmica-da-cr6100b)
+    * [Unidades de estudo](#unidades-de-estudo)
+* Diário de Aprendizagem (em breve)
+
+## Vídeo da aula
+{% video https://www.youtube.com/watch?v=-aY8U8s5Kv4 %}
+<i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
+[Download dos slides do vídeo](unidade_0.pdf)
+
 ## Por que você está aqui?
 Antes de prosseguir na leitura, gostaria de propor um exercício: pare e reflita,
 durante alguns segundos ou minutos, sobre o **motivo de você estar aqui, fazendo
@@ -287,3 +308,83 @@ unidades de 0 a 13 correspondem ao conteúdo que foi adaptado da CS50, e as
 unidade 14 a 17 foram acrescentadas):
 
 ![Mapa mental das unidades de estudo](imagens/unidades_800x.png)
+
+Esta é a **Unidade 0: Introdução à CR6.100B**. Você pode estar curioso sobre o
+motivo da numeração das unidades começar no zero. A partir de agora decore e
+repita a regra abaixo como um mantra:
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+{% alert "primary" %}
+**Todo cientista da computação começa a contar a partir do número 0 (zero)**.
+<div class="text-center">
+  <img src="imagens/contagem.png" alt="Contagem começa em zero.">
+</div>
+
+Isso é muito importante. Se temos $$n$$ elementos, o cientista da computação
+conta de $$0$$ até $$n-1$$ (e não de $$1$$ até $$n$$). Começar a contar a partir
+do zero tem grandes vantagens durante a programação. No momento basta você
+aprender e praticar essa regra mas, se você tiver curiosidade e quiser saber
+mais um pouco, recomento o manuscrito EWD831 de [Edsger Wybe
+Kijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra), intitulado [_Why
+numbering should start at
+zero_](https://www.cs.utexas.edu/users/EWD/ewd08xx/EWD831.PDF).
+{% endalert %}
+
+Em resumo, as demais unidades de aprendizagem são:
+
+* **Unidade 1: Fundamentos da Computação**. Vamos entender como os cientistas da
+  computação resolvem problemas, e como eles pensam (pensamento computacional).
+* **Unidade 2: Fundamentos da Programação**. Vamos aprender os fundamentos da
+  programação utilizando linguagens visuais de programação.
+  ([Scrath](https://scratch.mit.edu/) e [Snap!](https://snap.berkeley.edu/)).
+* **Unidade 3: Linguagem C**. Vamos converter os fundamentos da programação que
+  aprendemos utilizando linguagens visuais, para uma linguagem textual e
+  consolidada de programação, a [linguagem
+  C](https://en.wikipedia.org/wiki/C_(programming_language)), criada em 1970 por
+  [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie).
+* **Unidade 4: Arrays**. Vamos aprender sobre compilação, debugging, memória,
+  arrays e strings.
+* **Unidade 5: Algoritmos**. Vamos aprender a como criar algoritmos para
+  resolver problemas computacionais clássicos (ordenação, busca). Também
+  falaremos sobre complexidade de algoritmos e recursão.
+* **Unidade 6: Memória**. Vamos aprender em detalhes a arquitetura da memória do
+  computador para podermos entender sobre ponteiros e alocação dinâmica de
+  variáveis.
+* **Unidade 7: Estruturas de Dados**. Vamos aprender sobre estruturas para
+  armazenamento de dados complexos.
+* **Unidade 8: Linguagem Python**. Vamos migrar da linguagem C para uma
+  linguagem mais moderna, a linguagem
+  [Python](https://en.wikipedia.org/wiki/Python_(programming_language)), criada
+  em 1991 por [Guido van
+  Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum).
+* **Unidade 9: Bancos de dados e SQL**. Vamos trabalhar com sistemas de
+  gerenciamento de bancos de dados e a linguagem
+  [SQL](https://en.wikipedia.org/wiki/SQL), que é utilizada para fazer
+  inserções, atualizações e consultas de dados em bancos de dados.
+* **Unidade 10: Programação Web (HTML, CSS e JS)**. Aprenderemos como a
+  linguagem de marcação [HTML](https://en.wikipedia.org/wiki/HTML) funciona, o
+  que é e como trabalhar com [CSS](https://en.wikipedia.org/wiki/CSS), bem como
+  a utilizar a linguagem de programação
+  [JavaScript](https://en.wikipedia.org/wiki/JavaScript).
+* **Unidade 11: Flask**. Aprenderemos a utilização de _frameworks_ e bibliotecas
+  que nos permitirão construir aplicações web rapidamente. Em especial
+  utilizaremos o [Flask](https://en.wikipedia.org/wiki/Flask_(web_framework)).
+* **Unidade 12: Tópicos Especiais**. Vamos aprender sobre alguns tópicos e
+  ferramentas que serão úteis em seu projeto final.
+* **Unidade 13: Projeto Final**. Aqui você escolherá um problema de sua escolha
+  e projetará e implementará uma solução, do início ao fim!
+* **Unidade 14: Linguagens de Programação**. Uma visão geral sobre os principais
+  paradigmas de linguagens de programação e as principais linguagens de cada
+  um. Vamos implementar o mesmo algoritmo em diversos paradigmas de programação.
+* **Unidade 15: Computação Gráfica**. Uma visão geral sobre computação gráfica.
+* **Unidade 16: Inteligência Artificial**. O que é inteligência artificial? Como
+  isso funciona? Quais os impactos da inteligência artificial em nossas vidas?
+* **Unidade 17: Teoria da Computação**. Faremos um estudo introdutório nas
+  questões mais "filosóficas" e "teóricas" da computação.
+* **Unidade $$\infty$$**: Você verá que só começamos a "arranhar" a superfície
+  de muitos conteúdos na computação mas, mesmo assim, você já está preparado e
+  com base suficiente para seguir por conta própria.
+
