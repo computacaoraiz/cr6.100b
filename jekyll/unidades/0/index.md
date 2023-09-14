@@ -24,7 +24,7 @@ Sumário:
       mal?](#como-saber-se-você-está-indo-bem-ou-mal)
     * [Construção e dinâmica da CR6.100B](#construção-e-dinâmica-da-cr6100b)
     * [Unidades de estudo](#unidades-de-estudo)
-* Diário de Aprendizagem (em breve)
+* [Diário de Aprendizagem](diario_unidade_0.pdf)
 
 ## Vídeo da aula
 {% video https://www.youtube.com/watch?v=-aY8U8s5Kv4 %}
