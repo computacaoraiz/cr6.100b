@@ -24,7 +24,7 @@ baseurl: "/cr6100b"
 lang: "pt-br"
 
 # Google Analytics
-#ga_tracking: ""
+google_analytics: G-JQ1JYH7SD7
 
 # Redes sociais:
 twitter_username: "computacaoraiz"

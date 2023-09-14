@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+
+<html lang="{{ page.lang | default: site.lang | default: "en-us" }}">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+
+        {%- if page.refresh -%}
+        <meta content="{{ page.refresh }}" http-equiv="refresh">
+        {%- endif -%}
+
+        <meta property="og:description" content="{{ page.description | default: site.cs50.description }}">
+
+        <meta property="og:image" content="{{ page.image | default: site.cs50.image }}">
+
+        {%- capture title -%}
+            {%- if page.title -%}
+                {{- page.title -}}
+            {%- endif -%}
+            {%- if site.cs50.title -%}
+                {%- unless site.github and site.cs50.title == site.github.repository_name -%}
+                    {%- if page.title %} - {% endif -%}
+                    {{- site.cs50.title -}}
+                {%- endunless -%}
+            {%- endif -%}
+        {%- endcapture -%}
+
+        <meta property="og:title" content="{{ title }}">
+
+        {% include head.html %}
+
+        {%- assign time = site.time | date: '%s' -%}
+
+        <link href="/favicon.ico?{{ time }}" rel="icon">
+
+        <!-- https://fonts.google.com/specimen/PT+Sans?query=PT+Sans&selection.family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700 -->
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+        <!-- https://getbootstrap.com/docs/ -->
+        <script src="/assets/jquery/dist/jquery.min.js?{{ time }}"></script>
+        <script src="/assets/bootstrap/dist/js/bootstrap.bundle.min.js?{{ time }}"></script>
+
+        <!-- https://bootstrap-table.com/docs/getting-started/introduction/ -->
+        <link href="/assets/bootstrap-table/dist/bootstrap-table.min.css?{{ time }}" rel="stylesheet">
+        <script src="/assets/bootstrap-table/dist/bootstrap-table.min.js?{{ time }}"></script>
+        <script src="/assets/bootstrap-table/dist/extensions/mobile/bootstrap-table-mobile.min.js?{{ time }}"></script>
+
+        <!-- https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use -->
+        {% if site.cs50.fontawesome %}
+        <link crossorigin="anonymous" href="https://kit.fontawesome.com/{{ site.cs50.fontawesome }}.css" rel="stylesheet">
+        {% else %}
+        <link href="/assets/@fortawesome/fontawesome-free/css/all.min.css?{{ time }}" rel="stylesheet">
+        {% endif %}
+
+        <!-- https://moment.github.io/luxon/ -->
+        <script src="/assets/luxon/build/global/luxon.min.js?{{ time }}"></script>
+
+        <!-- http://docs.mathjax.org/ -->
+        <!-- http://docs.mathjax.org/en/latest/options/output/chtml.html?highlight=displayAlign#the-configuration-block -->
+        <script>
+            MathJax = {
+               chtml: {
+                    displayAlign: "left"
+                }
+            };
+        </script>
+        <script src="/assets/mathjax/es5/tex-chtml.js?{{ time }}"></script>
+
+        <!-- https://github.com/verlok/vanilla-lazyload -->
+        <script src="/assets/intersection-observer/intersection-observer.js?{{ time }}"></script>
+        <script src="/assets/vanilla-lazyload/dist/lazyload.min.js?{{ time }}"></script>
+
+        <!-- https://github.com/davidjbradshaw/iframe-resizer -->
+        <script src="/assets/iframe-resizer/js/iframeResizer.min.js?{{ time }}"></script>
+
+        <!-- https://github.com/scratchblocks/scratchblocks/releases -->
+        <script src="/assets/scratchblocks.min.js?{{ time }}"></script>
+
+        <!-- https://mermaid-js.github.io/ -->
+        <script src="/assets/mermaid.min.js?{{ time }}"></script>
+
+        <!-- https://github.com/twitter/twemoji -->
+        <script src="/assets/twemoji/dist/twemoji.min.js?{{ time }}"></script>
+
+        {% if site.algolia -%}
+        <!-- https://www.algolia.com/doc/guides/building-search-ui/installation/js/ -->
+        <script src="/assets/algoliasearch/dist/algoliasearch-lite.umd.js?{{ time }}"></script>
+        <script src="/assets/instantsearch.js/dist/instantsearch.production.min.js?{{ time }}"></script>
+        {%- endif %}
+
+        <link href="{{ '/assets/' | append: page.layout | append: '.css' }}?{{ time }}" rel="stylesheet">
+        <script src="/assets/jekyll-theme-cs50.js?{{ time }}"></script>
+
+        <script>
+            window.CS50 = {
+                local: {{ site.cs50.local | jsonify }},
+                locale: {{ site.cs50.locale | jsonify }},
+                tz: {{ site.cs50.tz | jsonify }}
+            };
+        </script>
+
+        <title>{{ title }}</title>
+
+
+    </head>
+
+    <body class="invisible">
+
+        {% if site.cs50.alert %}
+        {%- capture alert -%}{%- include alert.md -%}{%- endcapture -%}
+        <div class="alert fixed-top mb-0 rounded-0" data-alert="{{ site.cs50.alert }}" data-hash="{{ alert | md5 }}" id="alert" role="alert">
+            <button aria-label="Close" class="btn-close d-none" data-bs-dismiss="alert" type="button"></button>
+            {{- alert | markdownify | replace: " id=", " data-id=" | strip -}}
+        </div>
+        {% endif %}
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <aside class="col-lg">
+ 
+                    <header>
+
+                        {%- capture header -%}{%- include header.md -%}{%- endcapture -%}
+                        {{- header | markdownify | replace: " id=", " data-id=" | strip -}}
+
+                    </header>
+
+                    {% if site.algolia -%}
+                    <button class="btn btn-link d-block ps-0 pt-0" data-search data-bs-target="#search" data-bs-toggle="modal" type="button">
+                        <i class="fas fa-search pe-2"></i>Search
+                    </button>
+                   {%- endif %}
+
+                    <button aria-controls="nav" aria-expanded="false" class="btn btn-sm collapsed d-lg-none" data-bs-target="aside > nav" data-bs-toggle="collapse">
+                        Menu
+                    </button>
+
+                    <nav class="collapse d-lg-block" id="nav">
+
+                        {%- capture nav -%}{%- include nav.md -%}{%- endcapture -%}
+                        {{- nav | markdownify | replace: " id=", " data-id=" | strip -}}
+
+                    </nav>
+
+                    <footer>
+
+                        {%- capture footer -%}{%- include footer.md -%}{%- endcapture -%}
+                        {{- footer | markdownify | replace: " id=", " data-id=" | strip -}}
+
+                    </footer>
+
+                </aside>
+
+                <main class="col-lg">
+
+                    {{ content }}
+
+                </main>
+
+            </div>
+
+        </div>
+
+        {% if site.algolia -%}
+        <div aria-hidden="true" aria-labelledby="searchTitle" class="markdown-body modal" id="search" role="dialog" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="pe-3 w-100" id="searchbox"></div>
+                        <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="hits"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+
+            // Before shwoing searchbox
+            $('#search').on('show.bs.modal', function (e) {
+
+                // Client
+                const searchClient = algoliasearch('{{ site.algolia.application_id }}', '{{ site.algolia.search_only_api_key }}');
+                const search = instantsearch({
+                    indexName: '{{ site.algolia.index_name }}',
+                    searchClient: searchClient,
+                    searchFunction: function(helper) { // https://www.algolia.com/doc/guides/building-search-ui/going-further/conditional-display/js/#handling-empty-queries
+                        const hits = $('#hits');
+                        if (helper.state.query === '') {
+                            hits.hide();
+                            return;
+                        }
+                        helper.search();
+                        hits.show();
+                    }
+                });
+
+                // searchBox
+                // https://www.algolia.com/doc/api-reference/widgets/search-box/js/
+                search.addWidget(
+                    instantsearch.widgets.searchBox({
+                        container: '#searchbox',
+                        cssClasses: {
+                            input: 'form-control'
+                        },
+                        placeholder: 'Search',
+                        showLoadingIndicator: false,
+                        showReset: false,
+                        showSubmit: false
+                    })
+                );
+
+                // hits
+                // https://www.algolia.com/doc/api-reference/widgets/hits/js/
+                search.addWidget(
+                    instantsearch.widgets.hits({
+                        container: '#hits',
+                        templates: {
+                            item: function(hit) {
+
+                                // url
+                                if (window.baseurl) {
+                                    var url = window.baseurl + hit.url;
+                                }
+                                else {
+                                    var url = hit.url;
+                                }
+                                if (hit.anchor) {
+                                    url += '#' + hit.anchor;
+                                }
+
+                                // title
+                                if (hit._highlightResult && hit._highlightResult.headings) {
+                                    var title = hit._highlightResult.headings[hit._highlightResult.headings.length - 1].value;
+                                }
+                                else if (hit._highlightResult && hit._highlightResult.title) {
+                                    var title = hit._highlightResult.title.value;
+                                }
+                                else if (hit.headings) {
+                                    var title = hit.headings[hit.headings.length - 1].value;
+                                }
+                                else if (hit.title) {
+                                    var title = hit.title;
+                                }
+                                else {
+                                    var title = url;
+                                }
+
+                                // content
+                                if (hit._highlightResult && hit._highlightResult.content) {
+                                    var content = hit._highlightResult.content.value;
+                                }
+                                else if (hit._highlightResult && hit._highlightResult.title) {
+                                    var content = hit._highlightResult.title.value;
+                                }
+                                else {
+                                    var content = hit.excerpt_text;
+                                }
+
+                                // Template for hit
+                                return '<h2 class="font-weight-bold h3 mb-0">' +
+                                       '<a href="' + url + '">' +
+                                       title +
+                                       '</a>' +
+                                       '</h2>' +
+                                       '<p class="mb-0">' +
+                                       '<a class="text-muted" href="' + url + '">' +
+                                       url +
+                                       '</a>' +
+                                       '</p>' +
+                                       '<p>' + 
+                                       content +
+                                       '</p>';
+                            }
+                        }
+                    })
+                );
+
+                // poweredBy
+                search.addWidget(
+                    instantsearch.widgets.poweredBy({
+                        container: '#search .modal-footer'
+                    })
+                );
+
+                // Let user start searching
+                search.start();
+
+                // Resize form
+                $(window).trigger('resize');
+            });
+
+            // After showing searchbox
+            $('#search').on('shown.bs.modal', function (e) {
+                $('#searchbox input[type=search]').focus();
+            });
+
+        </script>
+        {% endif %}
+ 
+        <script src="/assets/page.js?{{ time }}"></script>
+
+	{% include ga.html %}
+
+    </body>
+
+</html>
