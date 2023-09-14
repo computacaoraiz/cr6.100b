@@ -3,6 +3,7 @@
 <html lang="{{ page.lang | default: site.lang | default: "en-us" }}">
 
     <head>
+	{% include ga.html %}
 
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, width=device-width">
@@ -306,8 +307,6 @@
         {% endif %}
  
         <script src="/assets/page.js?{{ time }}"></script>
-
-	{% include ga.html %}
 
     </body>
 
