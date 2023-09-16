@@ -87,42 +87,43 @@ que:
 > sentido em que a geometria não se trata realmente do uso de instrumentos
 > topográficos.
 >
-> Na verdade, há muitos pontos em comum entre a ciência da
-> computação e a geometria. A geometria, antes de mais nada, é outra disciplina
-> com um péssimo nome. O nome vem de Gaia, que significa Terra, e metron, que
-> significa medir. Geometria originalmente significava medir a Terra ou fazer
+> Na verdade, há muitos pontos em comum entre a ciência da computação e a
+> geometria. A geometria, antes de mais nada, é outra disciplina com um péssimo
+> nome. O nome vem de Gaia, que significa Terra, e metron, que significa
+> medir. Geometria, originalmente, significava medir a Terra ou fazer
 > levantamentos. E a razão para isso foi que, há milhares de anos, o sacerdócio
 > egípcio desenvolveu os rudimentos da geometria para descobrir como restaurar
-> os limites dos campos que foram destruídos nas cheias anuais do Nilo. E para
-> os egípcios que fizeram isso, a geometria era realmente o uso de instrumentos
-> topográficos.
+> os limites dos campos que foram destruídos pelas cheias anuais do Nilo. E,
+> para os egípcios que fizeram isso, a geometria era realmente o uso de
+> instrumentos topográficos.
+> Agora, a razão pela qual pensamos que a ciência da computação trata de
+> computadores é praticamente a mesma razão pela qual os egípcios pensavam que a
+> geometria tratava de instrumentos de levantamento. E isto é, quando alguma
+> área está apenas começando e você não a entende muito bem, é muito fácil
+> confundir a essência do que você está fazendo com as ferramentas que você
+> usa. E, de fato, numa escala absoluta de coisas, provavemente sabemos menos
+> sobre a essência da ciência da computação do que os antigos egípcios realmente
+> sabiam sobre geometria.
 >
-> Agora, a razão pela qual pensamos que a ciência da computação
-> trata de computadores é praticamente a mesma razão pela qual os egípcios
-> pensavam que a geometria tratava de instrumentos de levantamento. E isto é,
-> quando alguma área está apenas começando e você não a entende muito bem, é
-> muito fácil confundir a essência do que você está fazendo com as ferramentas
-> que você usa. E, de facto, numa escala absoluta de coisas, provavelmente
-> sabemos menos sobre a essência da ciência da computação do que os antigos
-> egípcios realmente sabiam sobre geometria.
->
-> Bem, o que quero dizer com essência da ciência da computação? O que quero
+> Bem, o que eu quero dizer com essência da ciência da computação? O que quero
 > dizer com essência da geometria? Veja, é certamente verdade que esses egípcios
-> usaram instrumentos de topografia, mas quando olhamos para eles depois de
-> alguns milhares de anos, dizemos, caramba, o que eles estavam fazendo, a coisa
-> importante que estavam fazendo, era começar a formalizar noções sobre espaço e
-> tempo, para iniciar uma maneira de falar formalmente sobre verdades
-> matemáticas. Isso levou ao método axiomático. Isso levou a que toda a
-> matemática moderna descobrisse uma maneira de falar precisamente sobre o
-> chamado conhecimento declarativo, o que é verdadeiro.
->
-> Bem, da mesma forma, acho que no futuro as pessoas olharão para
-> trás e dirão, sim, aqueles primitivos do século 20 estavam brincando com esses
-> dispositivos chamados computadores, mas na verdade o que eles estavam fazendo
-> era começando a aprender como formalizar intuições sobre processos, como fazer
-> as coisas, começando a desenvolver uma forma de falar precisamente sobre o
-> conhecimento do como fazer, em oposição à geometria que fala sobre o que é
+> usavam instrumentos de topografia, mas quando olhamos para eles depois de
+> alguns milhares de anos, dizemos, caramba!, o que eles estavam fazendo, a
+> coisa importante que estavam fazendo [a essência da geometria], era começar a
+> formalizar noções sobre espaço e tempo, para iniciar uma maneira de falar
+> formalmente sobre verdades matemáticas. Isso levou ao método axiomático. Isso
+> levou a que toda matemática moderna descobrisse uma maneira de falar
+> precisamente sobre o chamado conhecimento declarativo, sobre o que é
 > verdadeiro.
+>
+> Bem, da mesma forma, acho que no futuro as pessoas olharão para trás e dirão,
+> sim, aqueles primitivos do século 20 estavam brincando com esses dispositivos
+> chamados computadores mas, na verdade, o que eles estavam fazendo era
+> começando a aprender como formalizar intuições sobre processos, sobre como
+> fazer as coisas, começando a desenvolver uma forma de falar precisamente sobre
+> o conhecimento de como fazer alguma coisa [conhecimento imperativo], em
+> oposição à geometria que fala sobre o que é verdadeiro [conhecimento
+> declarativo].
 
 Em resumo, ciência da computação, em sua essência, não é sobre computadores:
 estes são apenas os instrumentos que utilizamos (que programamos) para obter a
@@ -328,7 +329,7 @@ conta de $$0$$ até $$n-1$$ (e não de $$1$$ até $$n$$). Começar a contar a pa
 do zero tem grandes vantagens durante a programação. No momento basta você
 aprender e praticar essa regra mas, se você tiver curiosidade e quiser saber
 mais um pouco, recomento o manuscrito EWD831 de [Edsger Wybe
-Kijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra), intitulado [_Why
+Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra), intitulado [_Why
 numbering should start at
 zero_](https://www.cs.utexas.edu/users/EWD/ewd08xx/EWD831.PDF).
 {% endalert %}
