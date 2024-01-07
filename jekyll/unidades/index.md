@@ -8,7 +8,7 @@ title: Unidades
   <li><span class="fa-li fa-regular fa-book-open-reader"></span>
       <div><strong>Unidade 0</strong>: <a href="/unidades/0/">introdução à CR6.100B</a>.</div></li>
   <li><span class="fa-li fa-solid fa-microchip"></span>
-      <div><strong>Unidade 1</strong>: fundamentos da computação.</div></li>
+      <div><strong>Unidade 1</strong>: <a href="/unidades/1/">fundamentos da computação</a>.</div></li>
   <li><span class="fa-li fa-solid fa-gear-complex-code"></span>
       <div><strong>Unidade 2</strong>: fundamentos da programação (Scratch e
       Snap!).</div></li>

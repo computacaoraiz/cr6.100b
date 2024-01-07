@@ -1,0 +1,385 @@
+<!DOCTYPE html><html lang="pt-br"><head>
+	<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JQ1JYH7SD7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JQ1JYH7SD7');
+</script>
+
+
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width"><meta property="og:description" content="Disciplina de introdução à Ciência da Computação, para estudantes brasileiros, adaptada da Harvard CS50x.">
+
+        <meta property="og:image" content=""><meta property="og:title" content="Unidade 1: computação - CR6.100B">
+
+        <link href="../../favicon.ico?1704605492" rel="icon">
+
+        <!-- https://fonts.google.com/specimen/PT+Sans?query=PT+Sans&selection.family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700 -->
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+        <!-- https://getbootstrap.com/docs/ -->
+        <script src="../../assets/jquery/dist/jquery.min.js?1704605492"></script>
+        <script src="../../assets/bootstrap/dist/js/bootstrap.bundle.min.js?1704605492"></script>
+
+        <!-- https://bootstrap-table.com/docs/getting-started/introduction/ -->
+        <link href="../../assets/bootstrap-table/dist/bootstrap-table.min.css?1704605492" rel="stylesheet">
+        <script src="../../assets/bootstrap-table/dist/bootstrap-table.min.js?1704605492"></script>
+        <script src="../../assets/bootstrap-table/dist/extensions/mobile/bootstrap-table-mobile.min.js?1704605492"></script>
+
+        <!-- https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use -->
+        
+        <link crossorigin="anonymous" href="https://kit.fontawesome.com/082b54de62.css" rel="stylesheet">
+        
+
+        <!-- https://moment.github.io/luxon/ -->
+        <script src="../../assets/luxon/build/global/luxon.min.js?1704605492"></script>
+
+        <!-- http://docs.mathjax.org/ -->
+        <!-- http://docs.mathjax.org/en/latest/options/output/chtml.html?highlight=displayAlign#the-configuration-block -->
+        <script>
+            MathJax = {
+               chtml: {
+                    displayAlign: "left"
+                }
+            };
+        </script>
+        <script src="../../assets/mathjax/es5/tex-chtml.js?1704605492"></script>
+
+        <!-- https://github.com/verlok/vanilla-lazyload -->
+        <script src="../../assets/intersection-observer/intersection-observer.js?1704605492"></script>
+        <script src="../../assets/vanilla-lazyload/dist/lazyload.min.js?1704605492"></script>
+
+        <!-- https://github.com/davidjbradshaw/iframe-resizer -->
+        <script src="../../assets/iframe-resizer/js/iframeResizer.min.js?1704605492"></script>
+
+        <!-- https://github.com/scratchblocks/scratchblocks/releases -->
+        <script src="../../assets/scratchblocks.min.js?1704605492"></script>
+
+        <!-- https://mermaid-js.github.io/ -->
+        <script src="../../assets/mermaid.min.js?1704605492"></script>
+
+        <!-- https://github.com/twitter/twemoji -->
+        <script src="../../assets/twemoji/dist/twemoji.min.js?1704605492"></script>
+
+        
+
+        <link href="../../assets/page.css?1704605492" rel="stylesheet">
+        <script src="../../assets/jekyll-theme-cs50.js?1704605492"></script>
+
+        <script>
+            window.CS50 = {
+                local: {"day":"numeric","hour":"numeric","minute":"numeric","month":"long","timeZoneName":"short","weekday":"long","year":"numeric"},
+                locale: "pt-BR",
+                tz: "America/Sao_Paulo"
+            };
+        </script>
+
+        <title>Unidade 1: computação - CR6.100B</title>
+
+
+    </head>
+
+    <body class="invisible">
+
+        <div class="alert fixed-top mb-0 rounded-0" data-alert="waring" data-hash="d3a59f943e644130e034baef81ee491b" id="alert" role="alert">
+            <button aria-label="Close" class="btn-close d-none" data-bs-dismiss="alert" type="button"></button><p>Este projeto de adaptação da Harvard CS50 ainda está <strong>em andamento</strong>. Por favor
+entenda que muitas partes ainda não estão prontas e, mesmo as que já estão
+prontas, estão sujeitas à revisões posteriores até que a versão final seja
+lançada.</p></div>
+        
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <aside class="col-lg">
+ 
+                    <header><h1 data-id="cr6100b"><a href="../..">CR6.100B</a></h1>
+<h2 data-id="introdução-à-ciência-da-computação-baseada-e-adaptada-da-harvard-cs50">Introdução à Ciência da Computação (baseada e adaptada da <a href="https://cs50.harvard.edu/x/">Harvard CS50</a>)</h2>
+
+<p><a href="https://cs50.harvard.edu/donate"><em>Donate to CS50</em><i aria-hidden="true" class="fas fa-external-link-alt ps-2"></i></a>
+<br>
+<a href="https://apoia.se/computacaoraiz">Doe para a CR6.100B<i aria-hidden="true" class="fas fa-external-link-alt ps-2"></i></a></p>
+
+<p><a href="https://www.computacaoraiz.com.br">Abrantes Araújo Silva Filho</a>
+<br>
+<a href="mailto:abrantesasf@computacaoraiz.com.br"><i class="fa-regular fa-envelope"></i> Envie um e-mail</a>
+<br>
+<a class="mr-1" href="https://www.youtube.com/computacaoraiz"><i aria-hidden="true" class="fa-brands fa-youtube" title="YouTube"></i><span class="sr-only">YouTube</span></a>
+<a class="mr-1" href="https://github.com/computacaoraiz"><i aria-hidden="true" class="fa-brands fa-github" title="GitHub"></i><span class="sr-only">GitHub</span></a>
+<a class="mr-1" href="https://www.instagram.com/computacaoraiz/"><i aria-hidden="true" class="fa-brands fa-instagram" title="Instagram"></i><span class="sr-only">Instagram</span></a>
+<a class="mr-1" href="https://www.linkedin.com/in/abrantes-filho/"><i aria-hidden="true" class="fa-brands fa-linkedin" title="LinkedIn"></i><span class="sr-only">LinkedIn</span></a>
+<a class="mr-1" href="https://twitter.com/computacaoraiz"><i aria-hidden="true" class="fa-brands fa-twitter" title="Twitter"></i><span class="sr-only">Twitter</span></a></p></header>
+
+                    
+
+                    <button aria-controls="nav" aria-expanded="false" class="btn btn-sm collapsed d-lg-none" data-bs-target="aside > nav" data-bs-toggle="collapse">
+                        Menu
+                    </button>
+
+                    <nav class="collapse d-lg-block" id="nav"><hr>
+
+<ul>
+  <li data-marker="*"><a href="../../zoom/"><i class="fas fa-video pe-2"></i> Reuniões Zoom</a></li>
+</ul>
+<hr>
+
+<ul>
+  <li data-marker="*"><a href="https://cs50.dev"><i class="fa-duotone fa-browser"></i> Visual Studio Code for
+CS50</a></li>
+  <li data-marker="*"><a href="https://we.tl/t-bK9ZIRkT4G"><i class="fa-solid fa-computer"></i> Máquina Virtual Linux</a></li>
+  <li data-marker="*"><a href="https://cs50.ai/"><i class="fa-solid fa-duck pe-2 text-decoration-none"></i> CS50.ai</a></li>
+  <li data-marker="*"><a href="https://autolab.computacaoraiz.com.br"><i class="fa-solid fa-hundred-points"></i> Autolab</a>
+(só presencial)</li>
+  <li data-marker="*"><a href="https://cursos.computacaoraiz.com.br"><i class="fa-light fa-chalkboard-user"></i> e-Learning</a>
+(só presencial)</li>
+</ul>
+<hr>
+
+<ul>
+  <li data-marker="*"><a href="../0/"><i class="fa-regular fa-book-open-reader"></i> Unidade 0: introdução</a></li>
+  <li data-marker="*"><a href="./"><i class="fa-solid fa-microchip"></i> Unidade 1: computação</a></li>
+  <li data-marker="*"><i class="fa-solid fa-gear-complex-code"></i> Unidade 2: programação</li>
+  <li data-marker="*"><i class="fa-solid fa-c"></i> Unidade 3: C</li>
+  <li data-marker="*"><i class="fa-kit fa-array"></i> Unidade 4: arrays</li>
+  <li data-marker="*"><i class="fa-solid fa-arrow-down-1-9"></i> Unidade 5: algoritmos</li>
+  <li data-marker="*"><i class="fa-regular fa-memory"></i> Unidade 6: memória</li>
+  <li data-marker="*"><i class="fa-light fa-circle-nodes"></i> Unidade 7: estrut. de dados</li>
+  <li data-marker="*"><i class="fa-brands fa-python"></i> Unidade 8: Python</li>
+  <li data-marker="*"><i class="fa-solid fa-database"></i> Unidade 9: SQL</li>
+  <li data-marker="*"><i class="fa-brands fa-square-js"></i> Unidade 10: HTML, CSS, JS</li>
+  <li data-marker="*"><i class="fa-kit fa-flask"></i> Unidade 11: Flask</li>
+  <li data-marker="*"><i class="fa-solid fa-list-check"></i> Unidade 12: Tópicos</li>
+  <li data-marker="*"><i class="fa-regular fa-graduation-cap"></i> Unidade 13: Projeto final</li>
+  <li data-marker="*"><i class="fa-light fa-language"></i> Unidade 14: LP</li>
+  <li data-marker="*"><i class="fa-regular fa-alien-8bit"></i> Unidade 15: CG</li>
+  <li data-marker="*"><i class="fa-light fa-user-robot"></i> Unidade 16: IA</li>
+  <li data-marker="*"><i class="fa-sharp fa-solid fa-book"></i> Unidade 17: Teoria</li>
+</ul></nav>
+
+                    <footer></footer>
+
+                </aside>
+
+                <main class="col-lg">
+
+                    <h1 id="-unidade-1-computação"><i class="fa-solid fa-microchip"></i> Unidade 1: computação</h1>
+
+<p>Nesta unidade começaremos nosso estudo sobre computação e, mais especificamente,
+sobre ciência da computação. Nosso objetivo é fazer com que você entenda os
+grandes fundamentos da computação, incluindo:</p>
+
+<ul>
+  <li data-marker="*">O que é ciência da computação</li>
+  <li data-marker="*">Representação de dados no computador</li>
+  <li data-marker="*">Algoritmos</li>
+  <li data-marker="*">Pensamento computacional</li>
+  <li data-marker="*">Abstração</li>
+</ul>
+
+<p>O conteúdo desta unidade está dividido em 6 partes, sendo a primeira parte uma
+visão geral do que estudaremos. Em cada parte você encontrará o vídeo da aula, o
+texto correspondente e demais recursos. Utilize o sumário abaixo para navegar no
+conteúdo da unidade.</p>
+
+<p><strong>Sumário:</strong></p>
+<ul>
+  <li data-marker="-">PARTE 0: <a href="#parte-0-visão-geral-da-unidade">visão geral da unidade</a>
+    <ul>
+      <li data-marker="*"><a href="#parte-0-visão-geral-da-unidade">Vídeo da parte 0</a></li>
+    </ul>
+  </li>
+  <li data-marker="-">PARTE 1: <a href="#parte-1-o-que-é-ciência-da-computação">o que é ciência da
+computação?</a>
+    <ul>
+      <li data-marker="*"><a href="#vídeo-da-parte-1-o-que-é-ciência-da-computação">Vídeo da parte 1</a></li>
+      <li data-marker="*"><a href="#essência-e-conceito-da-ciência-da-computação">Essência e conceito da ciência da
+computação</a></li>
+      <li data-marker="*"><a href="#modelo-geral-da-computação">Modelo geral da computação</a></li>
+      <li data-marker="*"><a href="#conhecimento-declarativo-e-imperativo">Conhecimento declarativo e
+imperativo</a></li>
+    </ul>
+  </li>
+  <li data-marker="*"><a href="diario_unidade_0.pdf">Diário de Aprendizagem</a></li>
+</ul>
+
+<h2 id="parte-0-visão-geral-da-unidade">PARTE 0: visão geral da unidade</h2>
+<div class="ratio ratio-16x9" data-video=""><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="border" data-video="" src="https://www.youtube.com/embed/XbuHXSoKZOM?modestbranding=0&amp;rel=0&amp;showinfo=0"></iframe></div>
+<p><i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
+<a href="unidade_1_parte_0.pdf">Download dos slides do vídeo</a></p>
+
+<p>Esta unidade compreende o estudo dos <strong>fundamentos da computação</strong> e dará a base
+a partir da qual você aprenderá os pilares da computação e formará uma fundação
+para as próximas unidades. Se você ainda não terminou as atividades da <a href="../0/">Unidade
+0: introdução</a>, é importante que você não prossiga: estude
+primeiro a Unidade 0 (incluindo fazer o diário de aprendizagem) e, depois,
+continue aqui na Unidade 1.</p>
+
+<p>Nesta Unidade 1 falaremos sobre os grandes fundamentos da computação, incluindo
+discussões sobre: a) o que é ciência da computação; b) representação de dados em
+um computador; c) algoritmos; d) pensamento computacional; e, por último, e)
+abstração. A abstração, na verdade, é um dos componentes do pensamento
+computacional mas, de tão importante, merece uma discussão detalhada em
+separado. Este é o conteúdo desta unidade:</p>
+
+<p><img src="imagens/mapa_unidade.png" alt="Mapa mental da unidade 1"></p>
+
+<h2 id="parte-1-o-que-é-ciência-da-computação">PARTE 1: o que é ciência da computação?</h2>
+<h3 id="vídeo-da-parte-1-o-que-é-ciência-da-computação">Vídeo da parte 1: o que é ciência da computação?</h3>
+<div class="ratio ratio-16x9" data-video=""><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="border" data-video="" src="https://www.youtube.com/embed/qzxw-Tm8UgI?modestbranding=0&amp;rel=0&amp;showinfo=0"></iframe></div>
+<p><i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
+<a href="unidade_1_parte_1.pdf">Download dos slides do vídeo</a></p>
+
+<h3 id="essência-e-conceito-da-ciência-da-computação">Essência e conceito da ciência da computação</h3>
+<p>Existe uma certa confusão sobre o que é realmente a ciência da
+computação. Muitas pessoas acreditam que computação é praticamente um sinônimo
+de programação. Esse entendimento não é correto: a programação nos permite
+expressar idéias e resolver problemas através de computadores mas a <strong>essência</strong>
+da ciência da computação não depende de programação.</p>
+
+<div class="alert" data-alert="primary" role="alert"><p>Ciência da computação <strong>NÃO É</strong> sobre programação.</p></div>
+
+<p>Outras pessoas acreditam que ciência da computação é o trabalho com
+computadores. Mas essa visão também não é correto: os computadores são meras
+ferramentas de trabalho, são ferramentas fantásticas que programamos para nos
+ajudar a resolver problemas de forma mais rápida, mas a <strong>essência</strong> da ciência
+da computação também não depende de computadores.</p>
+
+<div class="alert" data-alert="primary" role="alert"><p>Ciência da computação <strong>NÃO DEPENDE</strong> de computadores.</p></div>
+
+<p>Na realidade a ciência da computação é sobre <strong>resolver problemas</strong> de um certo
+modo, de uma certa maneira. Mas como formalizar então qual é a <strong>essência</strong> da
+ciência da computação? Talvez uma das melhores explicações sobre a essência da
+ciência da computação foi dada por <a href="https://en.wikipedia.org/wiki/Hal_Abelson">Hal
+Abelson</a>, um dos autores do soberbo
+livro <strong>Structure and Interpretation of Computer Programs</strong>
+(<a href="https://web.mit.edu/6.001/6.037/sicp.pdf">SICP</a>), em uma aula para
+funcionários da Hewlett-Packard, em julho de 1986. Abelson explica o que é a
+ciência da computação do seguinte modo:</p>
+
+<blockquote>
+  <p>[A ciência da computação] Também não se trata muito de computadores. E não se
+trata de computadores no mesmo sentido em que a física não se trata realmente
+de aceleradores de partículas, e a biologia não se trata realmente de
+microscópios e placas de Petri. E não se trata de computadores no mesmo
+sentido em que a geometria não se trata realmente do uso de instrumentos
+topográficos.</p>
+
+  <p>Na verdade, há muitos pontos em comum entre a ciência da computação e a
+geometria. A geometria, antes de mais nada, é outra disciplina com um péssimo
+nome. O nome vem de Gaia, que significa Terra, e metron, que significa
+medir. Geometria, originalmente, significava medir a Terra ou fazer
+levantamentos. E a razão para isso foi que, há milhares de anos, o sacerdócio
+egípcio desenvolveu os rudimentos da geometria para descobrir como restaurar
+os limites dos campos que foram destruídos pelas cheias anuais do Nilo. E,
+para os egípcios que fizeram isso, a geometria era realmente o uso de
+instrumentos topográficos.
+Agora, a razão pela qual pensamos que a ciência da computação trata de
+computadores é praticamente a mesma razão pela qual os egípcios pensavam que a
+geometria tratava de instrumentos de levantamento. E isto é, quando alguma
+área está apenas começando e você não a entende muito bem, é muito fácil
+confundir a essência do que você está fazendo com as ferramentas que você
+usa. E, de fato, numa escala absoluta de coisas, provavemente sabemos menos
+sobre a essência da ciência da computação do que os antigos egípcios realmente
+sabiam sobre geometria.</p>
+
+  <p>Bem, o que eu quero dizer com essência da ciência da computação? O que quero
+dizer com essência da geometria? Veja, é certamente verdade que esses egípcios
+usavam instrumentos de topografia, mas quando olhamos para eles depois de
+alguns milhares de anos, dizemos, caramba!, o que eles estavam fazendo, a
+coisa importante que estavam fazendo [a essência da geometria], era começar a
+formalizar noções sobre espaço e tempo, para iniciar uma maneira de falar
+formalmente sobre verdades matemáticas. Isso levou ao método axiomático. Isso
+levou a que toda matemática moderna descobrisse uma maneira de falar
+precisamente sobre o chamado conhecimento declarativo, sobre o que é
+verdadeiro.</p>
+
+  <p>Bem, da mesma forma, acho que no futuro as pessoas olharão para trás e dirão,
+sim, aqueles primitivos do século 20 estavam brincando com esses dispositivos
+chamados computadores mas, na verdade, o que eles estavam fazendo era
+começando a aprender como formalizar intuições sobre processos, sobre como
+fazer as coisas, começando a desenvolver uma forma de falar precisamente sobre
+o conhecimento de como fazer alguma coisa [conhecimento imperativo], em
+oposição à geometria que fala sobre o que é verdadeiro [conhecimento
+declarativo].</p>
+</blockquote>
+
+<p>Quando achamos que ciência da computação é sobre programação e computadores,
+estamos confundindo a <strong>essência da computação</strong> com as <strong>ferramentas</strong> que são
+utilizadas (os computadores). Quando uma nova área de estudo está sendo
+desenvolvida é fácil confundir a essência com as ferramentas, e é essa confusão
+que nos faz achar que ciência da computação é sobre computadores (a ciência da
+computação é muito nova). Na verdade a essência da ciência da computação é
+formalizar “receitas” (chamadas de <strong>algoritmos</strong>) que nos permitem saber como
+fazer as coisas, sobre como resolver problemas. Em resumo, podemos dizer que:</p>
+
+<div class="alert" data-alert="success" role="alert"><p><strong>CIÊNCIA DA COMPUTAÇÃO É A CIÊNCIA QUE PROJETA E IMPLEMENTA ALGORITMOS PARA
+SOLUCIONAR PROBLEMAS.</strong></p></div>
+
+<p>Nós estudaremos em detalhes o que é um algoritmo. Por ora basta entender que um
+algoritmo é uma “receita” que seguimos para resolver um determinado problema,
+para realizar um determinado processo. A palavra <strong>algoritmo</strong> (bem como a
+palavra <strong>algarismo</strong>) foi criada a partir do nome de um matemático persa que
+viveu entre os séculos VIII e IX (c. 780 - c. 850) chamado de <strong>Abū Abd Allāh
+Muḥammad ibn Mūsā al-Khwārizmī</strong> (Pai de Abdullah, Mohammed, filho de Moisés,
+nativo de Khwarizm). Al-Khwārizmī foi um gênio matemático à época, e seus
+trabalhos introduziram os numerais hindu-arábicos e os conceitos de álgebra na
+matemática ocidental. Alguns de seus trabalhos descreviam um modo sistemático de
+obter soluções para equações quadráticas, ou seja, uma “receita” a ser
+seguida. A foto abaixo é uma estátua em sua homenagem, na cidade de Khiva, atual
+Uzbequistão:</p>
+
+<p><img src="imagens/alkhwarizmi.jpg" alt="al-khwarizmi"></p>
+
+<h3 id="modelo-geral-da-computação">Modelo geral da computação</h3>
+<p>Quando falamos que a ciência da computação resolve problemas, uma pergunta óbvia
+é: <strong>como</strong> a computação resolve os problemas? Na verdade existe um “modelo
+geral” através do qual a computação resolve problemas. Esse modelo de computação
+pode ser ilustrado na figura abaixo:</p>
+
+<p><img src="imagens/modelo_da_computacao.png" alt="Modelo geral da computação"></p>
+
+<p>A partir de um determinado <strong>problema</strong>, fazemos o <strong>input</strong> (entrada) do
+problema no computador. Esse problema será tratado por um <strong>algoritmo</strong> (a
+“receita” para a solução do problema) e o computador fará o <strong>output</strong> (saída)
+da solução. Esse modelo é muito importante: toda vez que você pretende resolver
+um problema de forma computacional, você deve pensar e se fazer as seguintes
+perguntas?</p>
+
+<ol>
+  <li>Qual é o <strong>input</strong> (entrada), ou seja, qual é o problema que eu quero
+resolver?</li>
+  <li>Qual é o <strong>output</strong> (saída), ou seja, qual é a solução esperada do problema?</li>
+  <li>E, por fim, que <strong>algoritmo</strong> me permite processar a entrada (o problema) e
+obter a saída correta (a solução)?</li>
+</ol>
+
+<p>Atenção: não subestime a segunda pergunta, a solução esperada para o
+problema. Muitas pessoas tendem a se focar somente no problema e não têm uma
+visão clara de qual deve ser a solução correta, a solução esperada para o
+problema. Se você não tem clareza em qual deveria ser a solução correta, é mais
+difícil encontrar um algoritmo. Como você vai achar um algoritmo para
+transformar o input no output, se você não sabe em que output quer chegar?</p>
+
+<h3 id="conhecimento-declarativo-e-imperativo">Conhecimento declarativo e imperativo</h3>
+<p>(em breve)</p>
+
+
+                </main>
+
+            </div>
+
+        </div>
+
+        
+ 
+        <script src="../../assets/page.js?1704605492"></script>
+
+    
+
+
+</body></html>
