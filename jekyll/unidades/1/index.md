@@ -31,6 +31,8 @@ conteúdo da unidade.
     * [Modelo geral da computação](#modelo-geral-da-computação)
     * [Conhecimento declarativo e
       imperativo](#conhecimento-declarativo-e-imperativo)
+- PARTE 2: [representação de dados](#parte-2-representação-de-dados)
+    * [Vídeo da parte 2](#vídeo-da-parte-2-representação-de-dados)
 * [Diário de Aprendizagem](diario_unidade_0.pdf)
 
 
@@ -74,14 +76,30 @@ Ciência da computação **NÃO É** sobre programação.
 {% endalert %}
 
 Outras pessoas acreditam que ciência da computação é o trabalho com
-computadores. Mas essa visão também não é correto: os computadores são meras
+computadores. Mas essa visão também não é correta: os computadores são meras
 ferramentas de trabalho, são ferramentas fantásticas que programamos para nos
 ajudar a resolver problemas de forma mais rápida, mas a **essência** da ciência
-da computação também não depende de computadores.
+da computação também não depende de computadores (na verdade, alguns dos mais
+antigos e fundamentais desenvolvimentos teóricos da computação ocorreu entre
+1920 e 1940, muitos anos antes do desenvolvimento dos primeiros computadores).
 
 {% alert "primary" %}
 Ciência da computação **NÃO DEPENDE** de computadores.
 {% endalert %}
+
+Alguns pensam que ciência da computação é o estudo dos usos e aplicações dos
+computadores e softwares. Essa visão também não é correta: saber usar um
+computador ou um software específico não é a essência da ciência da computação,
+da mesma forma que saber dirigir um carro não é a essência da engenharia
+automotiva.
+
+{% alert "primary %}
+Ciência da computação **NÃO É** sobre o uso de computadores e softwares.
+{% endalert %}
+
+Computadores, programação e o uso e a aplicação de softwares fazem parte do
+"mundo" da computação mas não formam, isoladamente ou em conjunto, a essência da
+ciência da computação.
 
 Na realidade a ciência da computação é sobre **resolver problemas** de um certo
 modo, de uma certa maneira. Mas como formalizar então qual é a **essência** da
@@ -89,9 +107,15 @@ ciência da computação? Talvez uma das melhores explicações sobre a essênci
 ciência da computação foi dada por [Hal
 Abelson](https://en.wikipedia.org/wiki/Hal_Abelson), um dos autores do soberbo
 livro **Structure and Interpretation of Computer Programs**
-([SICP](https://web.mit.edu/6.001/6.037/sicp.pdf)), em uma aula para
-funcionários da Hewlett-Packard, em julho de 1986. Abelson explica o que é a
-ciência da computação do seguinte modo:
+([SICP: HTML
+original](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html);
+[SICP: HTML novo](https://sarabander.github.io/sicp/); [SICP:
+PDF](https://media.githubusercontent.com/media/sarabander/sicp-pdf/master/sicp.pdf);
+[SICP: Texinfo](https://www.neilvandyke.org/sicp-texi/); [SICP: PDF da versão
+JS](https://sicp.sourceacademy.org/sicpjs.pdf); [SICP: Comparison
+Edition](https://sicp.sourceacademy.org/)), em uma aula para funcionários da
+Hewlett-Packard, em julho de 1986. Abelson explica o que é a ciência da
+computação do seguinte modo:
 
 > [A ciência da computação] Também não se trata muito de computadores. E não se
 > trata de computadores no mesmo sentido em que a física não se trata realmente
@@ -144,26 +168,27 @@ utilizadas (os computadores). Quando uma nova área de estudo está sendo
 desenvolvida é fácil confundir a essência com as ferramentas, e é essa confusão
 que nos faz achar que ciência da computação é sobre computadores (a ciência da
 computação é muito nova). Na verdade a essência da ciência da computação é
-formalizar "receitas" (chamadas de **algoritmos**) que nos permitem saber como
-fazer as coisas, sobre como resolver problemas. Em resumo, podemos dizer que:
+formalizar "receitas de bolo" (chamadas de **algoritmos**) que nos permitem
+saber **como fazer as coisas**, sobre **como resolver problemas**. Em resumo,
+podemos dizer que:
 
 {% alert "success" %}
-**CIÊNCIA DA COMPUTAÇÃO É A CIÊNCIA QUE PROJETA E IMPLEMENTA ALGORITMOS PARA
-SOLUCIONAR PROBLEMAS.**
+**CIÊNCIA DA COMPUTAÇÃO É A CIÊNCIA QUE ESTUDA, CRIA E IMPLEMENTA ALGORITMOS
+PARA SOLUCIONAR PROBLEMAS.**
 {% endalert %}
 
-Nós estudaremos em detalhes o que é um algoritmo. Por ora basta entender que um
-algoritmo é uma "receita" que seguimos para resolver um determinado problema,
-para realizar um determinado processo. A palavra **algoritmo** (bem como a
-palavra **algarismo**) foi criada a partir do nome de um matemático persa que
-viveu entre os séculos VIII e IX (c. 780 - c. 850) chamado de **Abū Abd Allāh
-Muḥammad ibn Mūsā al-Khwārizmī** (Pai de Abdullah, Mohammed, filho de Moisés,
-nativo de Khwarizm). Al-Khwārizmī foi um gênio matemático à época, e seus
-trabalhos introduziram os numerais hindu-arábicos e os conceitos de álgebra na
-matemática ocidental. Alguns de seus trabalhos descreviam um modo sistemático de
-obter soluções para equações quadráticas, ou seja, uma "receita" a ser
-seguida. A foto abaixo é uma estátua em sua homenagem, na cidade de Khiva, atual
-Uzbequistão:
+Nós estudaremos em detalhes o que é um algoritmo na Parte 3 desta unidade. Por
+ora basta entender que um algoritmo é como se fosse uma "receita de bolo" que
+seguimos para resolver um determinado problema, para realizar um determinado
+processo. A palavra **algoritmo** (bem como a palavra **algarismo**) foi criada
+a partir do nome de um matemático persa que viveu entre os séculos VIII e IX
+(c. 780 - c. 850) chamado de **Abū Abd Allāh Muḥammad ibn Mūsā al-Khwārizmī**
+(Pai de Abdullah, Mohammed, filho de Moisés, nativo de Khwarizm). Al-Khwārizmī
+foi um gênio matemático à época, e seus trabalhos introduziram os numerais
+hindu-arábicos e os conceitos de álgebra na matemática ocidental. Alguns de seus
+trabalhos descreviam um modo sistemático de obter soluções para equações
+quadráticas, ou seja, uma "receita" a ser seguida. A foto abaixo é uma estátua
+em sua homenagem, na cidade de Khiva, atual Uzbequistão:
 
 ![al-khwarizmi](imagens/alkhwarizmi.jpg)
 
@@ -196,4 +221,107 @@ difícil encontrar um algoritmo. Como você vai achar um algoritmo para
 transformar o input no output, se você não sabe em que output quer chegar?
 
 ### Conhecimento declarativo e imperativo
+Vamos voltar agora ao texto do Hal Abelson (acima). Note que ele nos diz que a
+ciência da computação diz respeito a saber **como fazer** as coisas, em oposição
+à saber **o que é** alguma coisa. Aqui existe uma distinção importante entre
+dois "tipos" diferentes de conhecimento: o conhecimento **declarativo** e o
+conhecimento **imperativo**. Para a ciência da computação, o conhecimento
+imperativo é fundamental. Vamos entender melhor a diferença entre esses dois
+"tipos" de conhecimento.
+
+{% alert "info" %}
+O conhecimento **declarativo** nos diz o que é verdadeiro, nos diz o que é
+alguma coisa, define alguma coisa.
+{% endalert %}
+
+O conhecimento declarativo é a formalização da verdade, é o que é alguma
+coisa. Por exemplo, eu quero calcular a raiz quadrada de $$33$$, ou seja, eu
+quero calcular $$\sqrt{33}$$. Bom, a primeira coisa que eu preciso saber é **o
+que é a raiz quadrada de um número**. A matemática nos diz exatamente o que é a
+raiz quadrada:
+
+{% alert "light" %}
+$$\sqrt{x} = y\ |\ y \ge 0 \wedge y^2 = x$$
+{% endalert %}
+
+ou seja, a raiz quadrada de um número $$x$$ é o número $$y$$ tal que $$y$$ seja
+maior ou igual a zero e que $$y^2$$ seja igual ao número $$x$$. Esse tipo de
+conhecimento nos diz exatamente **o que é** a raiz quadrada, nos diz a
+verdade. Mas não nos diz como calcular uma raiz quadrada. Ele é o "ponto de
+partida", é a base a partir da qual podemos resolver um problema mas, por si só,
+o conhecimento declarativo não nos diz como resolver o problema. E é aqui que
+precisamos do conhecimento imperativo.
+
+{% alert "info" %}
+O conhecimento **imperativo** nos diz como fazer alguma coisa.
+{% endalert %}
+
+No caso do cálculo da $$\sqrt{33}$$, por exemplo, podemos utilizar o Método de
+Newton, que diz o seguinte:
+
+{% alert "light" %}
+0. Chute um valor para $$y$$;
+0. Calcule o valor de $$y^2$$;
+0. Se $$y^2 = x$$, ou um valor próximo o suficiente, você achou a raiz. Termine
+   o procedimento.
+0. Se $$y^2 \ne x$$, ou não está próximo o suficiente, melhore a estimativa de
+   $$y$$ fazendo o seguinte cálculo: novo $$y = \cfrac{y + \cfrac{x}{y}}{2}$$;
+0. Retorne ao segundo passo até que você encontre a raiz ou uma aproximação
+   suficiente.
+{% endalert %}
+   
+Se seguirmos o algoritmo do Método de Newton e fizermos os cálculos manualmente,
+acharemos que $$\sqrt{33} \approx 5.7445626$$.
+
+Percebe-se então claramente a diferença entre o conhecimento declarativo e o
+conhecimento imperativo:
+
+* O conhecimento declarativo nos diz o que é alguma coisa (por exemplo, nos diz
+  o que é uma raiz quadrada); e
+* O conhecimento imperativo nos diz como fazer alguma coisa (por exemplo, como
+  calcular a raiz quadrada de um número).
+
+Perceba que, a partir do momento em que conseguimos estabelecer um algoritmo,
+uma série de passos não ambíguos, bem ordenados, que terminam em um tempo hábil,
+conseguimos achar a solução para o problema de forma "mecânica", basta apenas
+seguir o algoritmo. Esta é a essência da ciência da computação: criar esses
+algoritmos, essas "receitas" precisas que nos mostram como resolver um
+problema.
+
+Outro exemplo para entender a diferença entre conhecimento declarativo e
+conhecimento imperativo: qual é o máximo divisor comum entre $$82$$ e $$44$$? A
+primeira coisa que precisamos saber é **o que é** o máximo divisor comum entre
+dois números. A matemática nos diz precisamente que (conhecimento declarativo):
+
+{% alert "light" %}
+"O máximo divisor comum ($$\text{mdc}$$) entre dois números $$a$$ e $$b$$,
+$$\text{mdc}(a, b)$$, é o maior número $$x$$ que seja divisor ao mesmo tempo de
+$$a$$ e $$b$$, ou seja, $$\text{rem}(a/x) = 0\ \wedge \text{rem}(b/x) = 0$$,
+onde: $$a, b \in \mathbb{Z}$$ (ambos não podem ser $$0$$ ao mesmo tempo), $$x
+\in \mathbb{Z}^*_+$$, $$\text{rem}$$ significa o resto do divisão, e
+$$\text{mdc}(a, 0) = \text{mdc}(0, a) = |a|$$."
+{% endalert %}
+
+Sem entrar em muitos detalhes na matemática da coisa, a definição acima nos diz
+que o máximo divisor comum é o maior número que divide os outros dois. Isso é
+conhecimento declarativo, é o tipo de conhecimento que nos diz o que é alguma
+coisa. E como calcular então o máximo divisor comum entre dois números? Para
+isso precisamos de uma "receita", de um algoritmo, então precisamos do
+conhecimento imperativo, o conhecimento de como fazer alguma coisa.
+
+Para calcular o máximo divisor comum entre $$82$$ e $$44$$ usaremos o Método de
+Euclides (conhecimento imperativo):
+
+{% alert "light" %}
+0. Inicie com $$\text{mdc}(a, b)$$;
+0. Substitua $$\text{mdc}(a, b)$$ por $$\text{mdc}(b, \text{rem}(a/b))$$;
+0. Continue substituindo até que apareça $$\text{mdc}(x, 0)$$;
+0. Nesse momento $$\text{mdc}(a, b) = \vert x \vert$$.
+{% endalert %}
+
+Se seguirmos o Método de Euclides veremos que $$\text{mdc}(82, 44) = 2$$.
+
+
+## PARTE 2: representação de dados
+### Vídeo da parte 2: representação de dados
 (em breve)
