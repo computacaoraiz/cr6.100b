@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/cs50/jekyll-theme-cs50
-  revision: dae6ea53f4b0201c7633fd685ec37f34819d3113
+  revision: d2e28a430c1a83198dfeee4c6a29c1f35ea7a728
   branch: develop
   specs:
     jekyll-theme-cs50 (1.1.0)

@@ -16,19 +16,19 @@
 
         <meta property="og:image" content=""><meta property="og:title" content="Unidade 1: computação - CR6.100B">
 
-        <link href="../../favicon.ico?1704730210" rel="icon">
+        <link href="../../favicon.ico?1705334935" rel="icon">
 
         <!-- https://fonts.google.com/specimen/PT+Sans?query=PT+Sans&selection.family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700 -->
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 
         <!-- https://getbootstrap.com/docs/ -->
-        <script src="../../assets/jquery/dist/jquery.min.js?1704730210"></script>
-        <script src="../../assets/bootstrap/dist/js/bootstrap.bundle.min.js?1704730210"></script>
+        <script src="../../assets/jquery/dist/jquery.min.js?1705334935"></script>
+        <script src="../../assets/bootstrap/dist/js/bootstrap.bundle.min.js?1705334935"></script>
 
         <!-- https://bootstrap-table.com/docs/getting-started/introduction/ -->
-        <link href="../../assets/bootstrap-table/dist/bootstrap-table.min.css?1704730210" rel="stylesheet">
-        <script src="../../assets/bootstrap-table/dist/bootstrap-table.min.js?1704730210"></script>
-        <script src="../../assets/bootstrap-table/dist/extensions/mobile/bootstrap-table-mobile.min.js?1704730210"></script>
+        <link href="../../assets/bootstrap-table/dist/bootstrap-table.min.css?1705334935" rel="stylesheet">
+        <script src="../../assets/bootstrap-table/dist/bootstrap-table.min.js?1705334935"></script>
+        <script src="../../assets/bootstrap-table/dist/extensions/mobile/bootstrap-table-mobile.min.js?1705334935"></script>
 
         <!-- https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use -->
         
@@ -36,7 +36,7 @@
         
 
         <!-- https://moment.github.io/luxon/ -->
-        <script src="../../assets/luxon/build/global/luxon.min.js?1704730210"></script>
+        <script src="../../assets/luxon/build/global/luxon.min.js?1705334935"></script>
 
         <!-- http://docs.mathjax.org/ -->
         <!-- http://docs.mathjax.org/en/latest/options/output/chtml.html?highlight=displayAlign#the-configuration-block -->
@@ -47,28 +47,28 @@
                 }
             };
         </script>
-        <script src="../../assets/mathjax/es5/tex-chtml.js?1704730210"></script>
+        <script src="../../assets/mathjax/es5/tex-chtml.js?1705334935"></script>
 
         <!-- https://github.com/verlok/vanilla-lazyload -->
-        <script src="../../assets/intersection-observer/intersection-observer.js?1704730210"></script>
-        <script src="../../assets/vanilla-lazyload/dist/lazyload.min.js?1704730210"></script>
+        <script src="../../assets/intersection-observer/intersection-observer.js?1705334935"></script>
+        <script src="../../assets/vanilla-lazyload/dist/lazyload.min.js?1705334935"></script>
 
         <!-- https://github.com/davidjbradshaw/iframe-resizer -->
-        <script src="../../assets/iframe-resizer/js/iframeResizer.min.js?1704730210"></script>
+        <script src="../../assets/iframe-resizer/js/iframeResizer.min.js?1705334935"></script>
 
         <!-- https://github.com/scratchblocks/scratchblocks/releases -->
-        <script src="../../assets/scratchblocks.min.js?1704730210"></script>
+        <script src="../../assets/scratchblocks.min.js?1705334935"></script>
 
         <!-- https://mermaid-js.github.io/ -->
-        <script src="../../assets/mermaid.min.js?1704730210"></script>
+        <script src="../../assets/mermaid.min.js?1705334935"></script>
 
         <!-- https://github.com/twitter/twemoji -->
-        <script src="../../assets/twemoji/dist/twemoji.min.js?1704730210"></script>
+        <script src="../../assets/twemoji/dist/twemoji.min.js?1705334935"></script>
 
         
 
-        <link href="../../assets/page.css?1704730210" rel="stylesheet">
-        <script src="../../assets/jekyll-theme-cs50.js?1704730210"></script>
+        <link href="../../assets/page.css?1705334935" rel="stylesheet">
+        <script src="../../assets/jekyll-theme-cs50.js?1705334935"></script>
 
         <script>
             window.CS50 = {
@@ -207,6 +207,49 @@ imperativo</a></li>
   <li data-marker="-">PARTE 2: <a href="#parte-2-representação-de-dados">representação de dados</a>
     <ul>
       <li data-marker="*"><a href="#vídeo-da-parte-2-representação-de-dados">Vídeo da parte 2</a></li>
+      <li data-marker="*"><a href="#por-que-é-importante-entender-a-representação-de-dados">Por que é importante entender a representação de
+dados?</a></li>
+      <li data-marker="-"><a href="#representação-de-números">Representação de números</a>
+        <ul>
+          <li data-marker="*"><a href="#noção-intuitiva-dos-sistemas-numéricos">Noção intuitiva dos sistemas
+numéricos</a></li>
+          <li data-marker="*"><a href="#por-que-os-computadores-falam-binário">Por que os computadores “falam”
+binário?</a></li>
+          <li data-marker="*"><a href="#formalização-dos-sistemas-numéricos">Formalização dos sistemas
+numéricos</a>
+            <ul>
+              <li data-marker="*"><a href="#sistema-decimal">Sistema decimal</a></li>
+              <li data-marker="*"><a href="#sistema-binário">Sistema binário</a></li>
+              <li data-marker="*"><a href="#sistema-octal">Sistema octal</a></li>
+              <li data-marker="*"><a href="#sistema-hexadecimal">Sistema hexadecimal</a></li>
+              <li data-marker="*"><a href="#generalização-para-outros-sistemas">Generalização para outros
+sistemas</a></li>
+            </ul>
+          </li>
+          <li data-marker="*"><a href="#unidades-de-medida-decimal">Unidades de medida decimal</a></li>
+          <li data-marker="*"><a href="#unidades-de-medida-binária">Unidades de medida binária</a></li>
+          <li data-marker="*"><a href="#comparação-entre-medidas-decimais-e-binárias">Comparação entre medidas decimais e
+binárias</a></li>
+        </ul>
+      </li>
+      <li data-marker="-"><a href="#representação-de-textos">Representação de textos</a>
+        <ul>
+          <li data-marker="*"><a href="#ascii-american-standard-code-for-information-interchange">ASCII: American Standard Code for Information
+Interchange</a></li>
+          <li data-marker="*"><a href="#unicode">Unicode</a></li>
+        </ul>
+      </li>
+      <li data-marker="-"><a href="#anexo-conteúdo-adicional-sobre-representação-de-números">Anexo: conteúdo adicional sobre representação de
+números</a>
+        <ul>
+          <li data-marker="*"><a href="#transformações-entre-sistemas-numéricos">Transformações entre sistemas
+  numéricos</a></li>
+          <li data-marker="*"><a href="#representação-de-números-inteiros-negativos-em-binário">Representação de números inteiros negativos em
+  binário</a></li>
+          <li data-marker="*"><a href="#representação-de-números-fracionários-em-binário">Representação de números fracionários em
+  binário</a></li>
+        </ul>
+      </li>
     </ul>
   </li>
   <li data-marker="*"><a href="diario_unidade_0.pdf">Diário de Aprendizagem</a></li>
@@ -215,7 +258,7 @@ imperativo</a></li>
 <h2 id="parte-0-visão-geral-da-unidade">PARTE 0: visão geral da unidade</h2>
 <div class="ratio ratio-16x9" data-video=""><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="border" data-video="" src="https://www.youtube.com/embed/XbuHXSoKZOM?modestbranding=0&amp;rel=0&amp;showinfo=0"></iframe></div>
 <p><i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
-<a href="unidade_1_parte_0.pdf">Download dos slides do vídeo</a></p>
+<a href="unidade1_parte0.pdf">Download dos slides do vídeo</a></p>
 
 <p>Esta unidade compreende o estudo dos <strong>fundamentos da computação</strong> e dará a base
 a partir da qual você aprenderá os pilares da computação e formará uma fundação
@@ -237,7 +280,7 @@ separado. Este é o conteúdo desta unidade:</p>
 <h3 id="vídeo-da-parte-1-o-que-é-ciência-da-computação">Vídeo da parte 1: o que é ciência da computação?</h3>
 <div class="ratio ratio-16x9" data-video=""><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="border" data-video="" src="https://www.youtube.com/embed/qzxw-Tm8UgI?modestbranding=0&amp;rel=0&amp;showinfo=0"></iframe></div>
 <p><i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
-<a href="unidade_1_parte_1.pdf">Download dos slides do vídeo</a></p>
+<a href="unidade1_parte1.pdf">Download dos slides do vídeo</a></p>
 
 <h3 id="essência-e-conceito-da-ciência-da-computação">Essência e conceito da ciência da computação</h3>
 <p>Existe uma certa confusão sobre o que é realmente a ciência da
@@ -488,7 +531,579 @@ Euclides (conhecimento imperativo):</p>
 
 <h2 id="parte-2-representação-de-dados">PARTE 2: representação de dados</h2>
 <h3 id="vídeo-da-parte-2-representação-de-dados">Vídeo da parte 2: representação de dados</h3>
+<div class="alert" data-alert="secondary" role="alert"><p>O vídeo abaixo tem 4 horas de duração. Talvez seja mais interessante você
+assistir o vídeo <a href="https://www.youtube.com/watch?v=8T_hJhYg4R0" target="\_blank">diretamente no
+YouTube</a>, pois
+na descrição do vídeo há um sumário detalhado com 69 tópicos cujos links abrem
+as partes específicas do vídeo. Aqui está um resumo dos tempos do vídeo e os
+grandes temas tratados:</p>
+
+<ul>
+  <li data-marker="*">0:00:00 - Introdução</li>
+  <li data-marker="*">0:17:12 - Representação de números</li>
+  <li data-marker="*">1:59:14 - Representação de textos</li>
+  <li data-marker="*">2:43:02 - Representação de cores</li>
+  <li data-marker="*">2:53:49 - Representação de imagens</li>
+  <li data-marker="*">3:24:30 - Representação de áudio</li>
+  <li data-marker="*">3:39:30 - Representação de vídeo</li>
+  <li data-marker="*">3:52:24 - Diferenciação das representações</li>
+  <li data-marker="*">3:56:00 - Finalização</li>
+</ul></div>
+
+<div class="ratio ratio-16x9" data-video=""><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="border" data-video="" src="https://www.youtube.com/embed/8T_hJhYg4R0?modestbranding=0&amp;rel=0&amp;showinfo=0"></iframe></div>
+<p><i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
+<a href="unidade1_parte2.pdf">Download dos slides do vídeo</a></p>
+
+<h3 id="por-que-é-importante-entender-a-representação-de-dados">Por que é importante entender a representação de dados?</h3>
+<p>Para fazer a entrada dos dados em um computador, precisamos estudar como é feita
+a representação dos diversos tipos de dados em um computador. Em nosso dia a dia
+utilizamos algarismos decimais (0, 1, 2, 3, 4, 5, 6, 7, 8 e 9), letras (de A até
+Z), sinais matemáticos (+, -) e diversos outros símbolos que nos permitem
+trabalhar com dados diversos mas, nos computadores, não temos toda essa
+liberdade. Então, de que forma podemos representar dados? Essa parte mostrará em
+detalhes a representação de números, textos, cores, imagens, áudio e vídeo:</p>
+
+<p><img src="imagens/mapa_parte_2.png" alt="Mapa do conteúdo de representação de dados"></p>
+
+<p>E por que é importante entender a representação de dados? Pensando no modelo
+geral de computação que estudamos na Parte 1 desta unidade, temos que fazer a
+entrada (<em>input</em>) dos dados em um computador, que processará esses dados através
+de um algoritmo, e a saída (<em>output</em>) apresentada pelo computador será a solução
+de nosso problema.</p>
+
+<p>A pergunta óbvia aqui então é: “como fazer a entrada dos
+dados no computador?” Não basta apenas dizer “pelo teclado”. Nós precisamos
+entender em detalhes <strong>como</strong> os dados são representados pois, dependendo da
+representação que utilizarmos, podemos ter <strong>maior ou menor flexibilidade e
+facilidade na resolução dos problemas</strong>. Também não somos obrigados a utilizar a
+mesma representação no <em>input</em> e no <em>output</em> e, assim, temos que ser capazes de
+escolher a melhor representação possível para cada caso.</p>
+
+<p>Para que a importância da representação do problema fique mais clara, imagine o
+seguinte: temos um problema simples para resolver, fazer a contagem de objetivos
+utilizando os dedos de uma mão. Nós podemos escolher representar essa contagem
+através do <strong>Sistema Unário</strong>, que contém apenas um único algarismo, o
+\(1\). Utilizando essa representação para os dados, quantos objetos podemos
+contar com os dedos de uma única mão? Obviamente \(5\) objetos. É possível
+contar mais do que cinco objetos com uma mão? Se continuarmos representando a
+contagem de objetos com o sistema unário, não. Mas, se mudarmos a representação
+da contagem dos objetos, podemos aumentar nossa capacidade de contagem! Se
+utilizarmos o <strong>Sistema Binário</strong>, que contém dois algarismos, o \(0\) e o
+\(1\), quantos objetos podemos contar com os dedos de uma mão?
+Surpreendentemente podemos contar \(32\) objetos, do objeto número \(0\) até o
+objeto número \(31\). Percebe por que a representação dos dados é importante? Se
+eu <strong>encontrar uma representação melhor para os dados</strong>, eu tenho maior
+flexibilidade, mais capacidade e facilidade de resolver problemas.</p>
+
+<div class="alert" data-alert="success" role="alert"><p>Saber qual é a melhor representação de dados para cada problema é fundamental na
+ciência da computação. Na maioria das vezes é mais fácil achar uma representação
+melhor do que tentar criar um algoritmo complexo para uma representação ruim.</p></div>
+
+<p>Como curiosidade, se utilizarmos o sistema binário, quantos objetos podemos
+contar utilizando duas mãos (dez dedos)? Por incrível que pareça, podemos contar
+\(1024\) objetos, do objeto número \(0\) até o objeto número \(1023\). Compare
+isso com o sistema unário:</p>
+
+<ul>
+  <li data-marker="*">Representar a contagem com o sistema unário: \(10\) objetos</li>
+  <li data-marker="*">Representar a contagem com o sistema binário: \(1024\) objetos</li>
+</ul>
+
+<p>Só de alterarmos a representação dos dados tivemos um ganho de \(10.140\%\) em
+nossa capacidade de contagem! Em resumo:</p>
+
+<div class="alert" data-alert="success" role="alert"><p>Ao encontrarmos uma representação mais adequada para os dados de nosso problema:</p>
+
+<ul>
+  <li data-marker="*">Podemos fazer mais com menos</li>
+  <li data-marker="*">Podemos utilizar algoritmos mais simples e adequados</li>
+  <li data-marker="*">Temos maior flexibilidade na entrada e na saída</li>
+  <li data-marker="*">Melhoramos nossa capacidade de resolução de problemas</li>
+</ul></div>
+
+<h3 id="representação-de-números">Representação de números</h3>
+<h4 id="noção-intuitiva-dos-sistemas-numéricos">Noção intuitiva dos sistemas numéricos</h4>
+<p>O <strong>Sistema Unário</strong> é aquele que só tem um único algarismo, o
+\(1\). Infelizmente, para nossos propósitos, é um sistema muito limitado e, por
+isso, praticamente não é utilizado na computação e não será mais nosso objeto de
+estudo.</p>
+
+<p>Já o <strong>Sistema Binário</strong>, que possui dois algarismos, o \(0\) e o \(1\), é o
+sistema mais importante na computação pois os computadores somente “falam a
+linguagem binária”. Mas como esse sistema funciona? Intuitivamente o sistema
+binário funciona como se fosse o hodômetro de um carro. Como funciona o
+hodômetro de um carro? Veja a figura abaixo:</p>
+
+<p><img src="imagens/hodometro_decimal_1.png" alt="Hodômetro decimal de 0 a 10"></p>
+
+<p>Cada “anel” do hodômetro de um carro tem gravado os dez algarismos, de 0 até 9,
+e a marcação da quilometragem percorrida é feita girando o anel. Quando o carro
+começa a andar, o anel mais à direita começa a girar, saindo do 0, passando para
+o 1, para o 2, e assim sucessivamente, até marcar 9 km. Quando o carro percorre
+o próximo quilômetro ocorre uma coisa fundamental no hodômetro: toda vez que
+um anel esgota os algarismos ocorre um processo de <strong>zera e vai 1</strong>. Repare que
+ao sair de 9 para 10 quilômetros, o anel mais à direita “zerou” e ocorreu um
+“vai 1” para o segundo anel, que passou a marcar “1”. Esse processo de <strong>zera e
+vai 1</strong> é fundamental para entender o hodômetro. Veja como ocorre o processo de
+<strong>zera e vai 1</strong> em outras quilometragens:</p>
+
+<p><img src="imagens/hodometro_decimal_2.png" alt="Hodômetro decimal, outros exemplos"></p>
+
+<p>O funcionamento do <strong>sistema binário</strong> funciona exatamente da mesma forma que o
+hodômetro decimal, mas agora só temos dois algarismos. Imagine que você tem um
+carro com um hodômetro especial, um “hodômetro binário”. Veja como esse
+hodômetro binário funciona:</p>
+
+<p><img src="imagens/hodometro_binario.png" alt="Hodômetro binário"></p>
+
+<p>Perceba que o funcionamento do hodômetro binário é exatamente o mesmo do
+hodômetro decimal, ou seja, toda vez que os algarismo de um anel se esgotam,
+ocorre o processo de <strong>zera e vai 1</strong>. A diferença é que agora só temos dois
+algarismos, \(0\) e \(1\), e assim o processo de zerar ocorre mais vezes. O
+pequeno vídeo abaixo compara os hodômetros decimal e binário, de 0 até 31:</p>
+
+<video width="720" height="208" controls="">
+  <source src="videos/hodometros.mp4" type="video/mp4">
+</video>
+
+<p>Se o hodômetro tem 10 algarismos binários, então podemos representar \(2^{10} =
+1024\) números, de \(0\) até \(1023\). Assim, o maior número binário com 10
+algarismos é o \(1111111111\), que corresponde ao decimal \(1023\).</p>
+
+<p>Outra maneira de entender o funcionamento do sistema binário é utilizar várias
+lâmpadas, com a seguinte convenção: se a lâmpada estiver desligada, estará
+representando o algarismo \(0\); se a lâmpada estiver ligada, estará
+representando o algarismo \(1\). Se utilizarmos 5 lâmpadas, então poderemos
+representar \(2^5 = 32\) números, do \(0\) até o \(31\). Alguns exemplos estão
+nas figuras abaixo.</p>
+
+<p>Se todas as lâmpadas estão apagadas, representam o número 0:</p>
+
+<p><img style="border:1px solid #000000" src="imagens/lampadas0.png" alt="Lâmpadas representando 0 em binário"></p>
+
+<p>Se a primeira e a terceira (da direita para esquerda) estão acessas, estão
+representando o número 5:</p>
+
+<p><img style="border:1px solid #000000" src="imagens/lampadas5.png" alt="Lâmpadas representando 5 em binário"></p>
+
+<p>Se a primeira, terceira e quarta (da direita para esquerda) estão acessas, estão
+representando o número 13:</p>
+
+<p><img style="border:1px solid #000000" src="imagens/lampadas13.png" alt="Lâmpadas representando 13 em binário"></p>
+
+<p>Se a primeira, segunda e quinta (da direita para esquerda) estão acessas, estão
+representando o número 19:</p>
+
+<p><img style="border:1px solid #000000" src="imagens/lampadas19.png" alt="Lâmpadas representando 19 em binário"></p>
+
+<p>Se a segunda, quarta e quinta (da direita para esquerda) estão acesas, estão
+representando o número 26:</p>
+
+<p><img style="border:1px solid #000000" src="imagens/lampadas26.png" alt="Lâmpadas representando 26 em binário"></p>
+
+<p>E se todas estão acessas, estão representando o número 31:</p>
+
+<p><img style="border:1px solid #000000" src="imagens/lampadas31.png" alt="Lâmpadas representando 31 em binário"></p>
+
+<div class="alert" data-alert="primary" role="alert"><p>Para saber quantos números é possível representar com \(n\) dígitos binários,
+basta calcular \(2^n\). Desse total calculado, a faixa numérica vai de \(0\) até
+\(n - 1\). Por exemplo: com 13 dígitos binários podemos representar \(2^{13}
+= 8.192\) números, do \(0\) até \(8.191\).</p>
+
+<p>Cada dígito binário é chamado de <strong>bit</strong>, de <em>binary digit</em>.</p></div>
+
+<h4 id="por-que-os-computadores-falam-binário">Por que os computadores “falam” binário?</h4>
+<p>Por conveniência e confiabilidade! É mais fácil projetar circuitos eletrônicos
+que representam apenas dois algarismos do que circuitos eletrônicos que
+representam dez algarismos. Além disso a representação com dois algarismos é
+perfeita para um dispositivo que utiliza eletricidade: se um circuito está com
+eletricidade, representa o algarismo \(1\); se um circuito está sem
+eletricidade, representa o algarismo \(0\).</p>
+
+<p>A idéia de utilizar o sistema binário nos computadores partiu do matemático
+húngaro <strong>John von Neumann</strong> que, em 30/06/1945, publicou um documento
+intitulado “<em>First Draft of a Report on the EDVAC</em>” que sugeria o uso do binário
+nos computadores. Na época os computadores utilizavam válvulas a vácuo que
+alternavam entre dois estados: permitir ou impedir a passagem de eletricidade.</p>
+
+<p>Atualmente os \(0\)s e os \(1\)s são “fabricados” nos computadores por um
+componente eletrônico chamado de <strong>transístor</strong>. O transístor é um dispositivo
+que permite ou não a passagem de eletricidade. Quando o transístor está
+transmitindo eletricidade, representa o algarismo \(1\); quando o transístor
+está interrompendo a passagem de eletricidade, representa o algarismo \(0\).</p>
+
+<p>Note o seguinte agora: os \(0\)s e \(1\)s são uma <strong>abstração</strong>, ou seja, os
+computadores não entendem o algarismo zero ou o algarismo um. Nós é que
+consideramos que um transístor que está permitindo a passagem de eletricidade
+está representando o algarismo \(1\), e nós é que consideramos que um transístor
+que não está transmitindo eletricidade está representando o algarismo \(0\).</p>
+
+<p>E não são apenas os transístores que podem ser utilizados para representar os
+algarismo binários. Em tese, qualquer dispositivo eletrônico que tenha dois
+estados pode ser utilizados, por exemplo:</p>
+
+<ul>
+  <li data-marker="*">Transístor: utiliza <strong>eletricidade</strong> para representar os algarismos binários;</li>
+  <li data-marker="*">CD-ROM: utiliza <strong>sulcos</strong> na superfície para representar os algarismos
+binários;</li>
+  <li data-marker="*">Cartão perfurado: utiliza <strong>furos</strong> na superfície para representar os
+algarismos binários;</li>
+  <li data-marker="*">Memórias antigas que utilizavam núcleos magnéticos de ferrite: utilizavam a
+<strong>direção do campo magnético</strong> para representar os algarismos binários;</li>
+  <li data-marker="*">Hard Disk (HD): utiliza direção do campo magnético para representar os
+algarismo binários;</li>
+  <li data-marker="*">Memórias atuais: utilizam transístores (eletricidade) para representar os
+algarismos binários; e</li>
+  <li data-marker="*">Fibra óptica: utiliza <strong>luz</strong> para representar os algarismos binários.</li>
+</ul>
+
+<p>Qualquer dispositivo <strong>bi-estável</strong> (com dois estados) pode ser utilizado para
+representar os algarismos binários, desde que: a) os estados sejam claramente
+distintos entre si; b) os estados possam ser lidos; e c) os estados possam ser
+alternados de acordo com nossa necessidade.</p>
+
+<h4 id="formalização-dos-sistemas-numéricos">Formalização dos sistemas numéricos</h4>
+<p>Agora que você já entendeu a noção intuitiva do sistema binário e já sabe porque
+os computadores utilizam esse sistema, precisamos avançar para formalizar de
+modo mais matemático a noção de sistema numérico. Para essa formalização os
+seguintes conceitos matemáticos serão necessários:</p>
+
+<ul>
+  <li data-marker="*"><strong>Base de um sistema numérico</strong></li>
+  <li data-marker="*"><strong>Valor posicional de um algarismo</strong></li>
+  <li data-marker="*"><strong>Decomposição numérica</strong></li>
+</ul>
+
+<p>Faremos essa formalização para os sistemas decimal, binário, octal e
+hexadecimal, nessa ordem, para facilitar o entendimento.</p>
+
+<h5 id="sistema-decimal">Sistema decimal</h5>
+
+<p>Para formalizar o <strong>sistema numérico decimal</strong> vamos, em primeiro lugar, lembrar
+o que é a base de um sistema numérico:</p>
+
+<div class="alert" data-alert="success" role="alert"><p>A base de um sistema numérico é a quantidade de algarismos utilizados para
+representar os números.</p></div>
+
+<p>Assim, no sistema decimal, a base é \(10\), pois temos dez algarismos (0, 1, 2,
+3, 4, 5, 6, 7, 8 e 9).</p>
+
+<p>A segunda coisa que precisamos nos lembrar é do <strong>valor posicional</strong> de um
+algarismo. Por exemplo: no número \(5555\) temos quatro algarismos “5”, mas cada
+algarismo tem um valor diferente, dependendo da <strong>posição que o algarismo ocupa
+no número</strong>.</p>
+
+<div class="alert" data-alert="success" role="alert"><p>No sistema decimal o valor posicional de um algarismo é dado por \(n_i \times
+10^i\), onde:</p>
+
+<ul>
+  <li data-marker="*">\(n\) é o algarismo considerado;</li>
+  <li data-marker="*">\(i\) é a posição do algarismo no número, sendo que a posição é contada da
+direita para a esquerda e sempre inicia em zero; e</li>
+  <li data-marker="*">\(n_i\) é o algarismo na posição \(i\).</li>
+</ul></div>
+
+<p>Tomo como exemplo o número \(347\). O algarismo \(7\) está na posição 0, então
+seu valor posicional é de \(7 \times 10^0 = 7\); o algarismo \(4\) está na
+posição 1, então seu valor posicional é de \(4 \times 10^1 = 40\); e o algarismo
+\(3\) está na posição 2, então seu valor posicional é de \(3 \times 10^2 =
+300\):</p>
+
+<p><img src="imagens/decomposicao_347.png" alt="Decomposição do número 347"></p>
+
+<p>A decomposição numérica do número \(347\) é, então:</p>
+
+<div class="alert" data-alert="light" role="alert">\[\begin{split}
+347 &amp;= (3 \times 10^2) + (4 \times 10^1) + (7 \times 10^0)\\
+&amp;= (300) + (40) + (7)
+\end{split}\]</div>
+
+<p>O número \(5555\) é formado por algarismos idênticos, mas cada um deles tem um
+<strong>valor posicional</strong> diferente:</p>
+
+<p><img src="imagens/decomposicao_5555.png" alt="Decomposição do número 5555"></p>
+
+<p>A decomposição numérica do número \(5555\) é, então:</p>
+
+<div class="alert" data-alert="light" role="alert">\[\begin{split}
+5555 &amp;= (5 \times 10^3) + (5 \times 10^2) + (5 \times 10^1) + (5 \times 10^0)\\
+&amp;= (5000) + (500) + (50) + (5)
+\end{split}\]</div>
+
+<p>De modo geral, a <strong>decomposição numérica</strong> no sistema decimal é dada por
+(lembre-se de que a posição \(i\) de um algarismo é contada da direita para
+esquerda, iniciando em 0):</p>
+
+<div class="alert" data-alert="light" role="alert">\[(n_i \times 10^{i}) + (n_{i-1} \times 10^{i-1}) + (n_{i-2} \times 10^{i-2}) +
+\ldots + (n_{0} \times 10^{0})\]</div>
+
+<p>Um exemplo de “quadro de valor posicional” do sistema decimal é mostrado abaixo:</p>
+
+<p><img src="imagens/quadro_posicional_10.png" alt="Quadro posicional no sistema decimal"></p>
+
+<h5 id="sistema-binário">Sistema binário</h5>
+<p>O mesmo raciocínio que utilizamos para o sistema decimal (base, valor posicional
+e decomposição numérica) se aplica ao sistema binário. Assim, a <strong>base do
+sistema binário</strong> é \(2\), pois temos dois algarismos para representar os
+números (0 e 1).</p>
+
+<div class="alert" data-alert="success" role="alert"><p>O valor posicional de um algarismo binário é dado por \(n_i \times 2^i\), onde:</p>
+
+<ul>
+  <li data-marker="*">\(n\) é o algarismo considerado;</li>
+  <li data-marker="*">\(i\) é a posição do algarismo no número, sendo que a posição é contada da
+direita para a esquerda e sempre inicia em zero; e</li>
+  <li data-marker="*">\(n_i\) é o algarismo na posição \(i\).</li>
+</ul></div>
+
+<p>Considere, como exemplo, o número binário \(10011\). Para sabermos quanto vale
+esse número, basta fazer a decomposição e verificar o valor posicional de cada
+algarismo:</p>
+
+<p><img src="imagens/decomposicao_10011.png" alt="Decomposição 10011"></p>
+
+<p>De modo geral, a <strong>decomposição numérica</strong> no sistema binário é dada por
+(lembre-se de que a posição \(i\) de um algarismo é contada da direita para
+esquerda, iniciando em 0):</p>
+
+<div class="alert" data-alert="light" role="alert">\[(n_i \times 2^{i}) + (n_{i-1} \times 2^{i-1}) + (n_{i-2} \times 2^{i-2}) +
+\ldots + (n_{0} \times 2^{0})\]</div>
+
+<p>Um exemplo de “quadro de valor posicional” do sistema binário é mostrado abaixo:</p>
+
+<p><img src="imagens/quadro_posicional_2.png" alt="Quadro posicional no sistema binário"></p>
+
+<p>Podemos usar os valores das casas binárias como um “macete” para descobrir
+rapidamente o valor decimal de um número binário. Ao invés de fazermos a
+decomposição com as posições, escrevemos sobre cada número binário o valor de
+sua casa, e somamos os valores das casas que correspondem à algarismos “1”, por
+exemplo:</p>
+
+<p><img src="imagens/decomposicao_101101.png" alt="Decomposição 101101"></p>
+
+<div class="alert" data-alert="danger" role="alert"><p>Quando estamos comparando números entre diferentes sistemas, ou quando queremos
+indicar o sistema numérico que estamos trabalhando, colocamos a base do sistema
+em subscrito, à direita do número. Isso indicará claramente em qual base o
+número está. A base pode ser indicada diretamente ou entre parênteses, por
+exemplo:</p>
+
+\[10011_{(2)} = 19_{(10)}\]
+
+\[101101_{2} = 45_{10}\]
+
+\[1000010101_{(2)} = 533_{(10)}\]</div>
+
+<h5 id="sistema-octal">Sistema octal</h5>
+<p>O sistema numérico octal é pouco utilizado hoje em dia, mas ainda é encontrado
+esporadicamente. A <strong>base do sistema octal</strong> é \(8\), pois tem oito algarismos
+para representar os números (0, 1, 2, 3, 4, 5, 6 e 7).</p>
+
+<div class="alert" data-alert="success" role="alert"><p>O valor posicional de um algarismo octal é dado por \(n_i \times 8^i\), onde:</p>
+
+<ul>
+  <li data-marker="*">\(n\) é o algarismo considerado;</li>
+  <li data-marker="*">\(i\) é a posição do algarismo no número, sendo que a posição é contada da
+direita para a esquerda e sempre inicia em zero; e</li>
+  <li data-marker="*">\(n_i\) é o algarismo na posição \(i\).</li>
+</ul></div>
+
+<p>Considere, como exemplo, o número octal \(17034\). Para sabermos quanto vale
+esse número, basta fazer a decomposição e verificar o valor posicional de cada
+algarismo:</p>
+
+<div class="alert" data-alert="light" role="alert">\[\begin{split}
+17034 &amp;= (1 \times 8^4) + (7 \times 8^3) + (0 \times 8^2) + (3 \times 8^1) + (4
+\times 8^0)\\
+&amp;= (4.096) + (3.584) + (0) + (24) + (4)\\
+&amp;= 7.708
+\end{split}\]
+
+<p>Assim, podemos dizer que:</p>
+
+\[17.034_8 = 7.708_{10}\]</div>
+
+<p>De modo geral, a <strong>decomposição numérica</strong> no sistema octal é dada por
+(lembre-se de que a posição \(i\) de um algarismo é contada da direita para
+esquerda, iniciando em 0):</p>
+
+<div class="alert" data-alert="light" role="alert">\[(n_i \times 8^{i}) + (n_{i-1} \times 8^{i-1}) + (n_{i-2} \times 8^{i-2}) +
+\ldots + (n_{0} \times 8^{0})\]</div>
+
+<p>Um exemplo de “quadro de valor posicional” do sistema octal é mostrado abaixo:</p>
+
+<p><img src="imagens/quadro_posicional_8.png" alt="Quadro posicional no sistema octal"></p>
+
+<h5 id="sistema-hexadecimal">Sistema hexadecimal</h5>
+<p>O sistema hexadecimal é muito, muito utilizado na computação, pois é mais fácil
+representar grandes números utilizando o sistema hexadecimal do que utilizando o
+sistema binário. Como o uso do sistema hexadecimal é difundido e geral na
+computação, você deve ter familiaridade com esse sistema.</p>
+
+<p>A <strong>base do sistema hexadecimal</strong> é \(16\), ou seja, temos dezesseis algarismos
+para representar os números: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F. É
+muito importante que você entenda que no sistema hexadecimal as letras de A até
+F não são letras, são apenas algarismos que representam os valores de 10
+até 15. O quadro abaixo mostra a relação entre os algarismos hexadecimais,
+decimais e binários. É extremamente importante que você memorize esse quadro
+(com o tempo):</p>
+
+<p><img src="imagens/quadro_hexadecimal.png" alt="Quadro de valores hexadecimais"></p>
+
+<div class="alert" data-alert="success" role="alert"><p>O valor posicional de um algarismo hexadecimal é dado por \(n_i \times 16^i\),
+onde:</p>
+
+<ul>
+  <li data-marker="*">\(n\) é o algarismo considerado;</li>
+  <li data-marker="*">\(i\) é a posição do algarismo no número, sendo que a posição é contada da
+direita para a esquerda e sempre inicia em zero; e</li>
+  <li data-marker="*">\(n_i\) é o algarismo na posição \(i\).</li>
+</ul></div>
+
+<p>Considere, como exemplo, o número hexadecimal \(F90B4\). Para sabermos quanto
+vale esse número, basta fazer a decomposição e verificar o valor posicional de
+cada algarismo:</p>
+
+<div class="alert" data-alert="light" role="alert">\[\begin{split}
+F90B4 &amp;= (15 \times 16^4) + (9 \times 16^3) + (0 \times 16^2) + (11 \times 16^1) + (4
+\times 16^0)\\
+&amp;= (983.040) + (36.864) + (0) + (176) + (4)\\
+&amp;= 1.020.084
+\end{split}\]
+
+<p>Assim, podemos dizer que:</p>
+
+\[F90B4_{16} = 1.020.084_{10}\]</div>
+
+<p>De modo geral, a <strong>decomposição numérica</strong> no sistema hexadecimal é dada por
+(lembre-se de que a posição \(i\) de um algarismo é contada da direita para
+esquerda, iniciando em 0):</p>
+
+<div class="alert" data-alert="light" role="alert">\[(n_i \times 16^{i}) + (n_{i-1} \times 16^{i-1}) + (n_{i-2} \times 16^{i-2}) +
+\ldots + (n_{0} \times 16^{0})\]</div>
+
+<p>Um exemplo de “quadro de valor posicional” do sistema octal é mostrado abaixo:</p>
+
+<p><img src="imagens/quadro_posicional_16.png" alt="Quadro posicional no sistema hexadecimal"></p>
+
+<h5 id="generalização-para-outros-sistemas">Generalização para outros sistemas</h5>
+<p>O valor de um algarismo em um sistema numérico de base \(b\) é dado por \(n_i
+\times b^i\). A decomposição numérica é dada por:</p>
+
+<div class="alert" data-alert="light" role="alert">\[(n_i \times b^{i}) + (n_{i-1} \times b^{i-1}) + (n_{i-2} \times b^{i-2}) +
+\ldots + (n_{0} \times b^{0})\]</div>
+
+<h4 id="unidades-de-medida-decimal">Unidades de medida decimal</h4>
+<p>As seguintes unidades de grandezas de base 10, maiores do que a unidade,
+padronizadas pelo Sistema Internacional de Unidades, são:</p>
+
+<p><img src="imagens/unidades_decimais_maiores.png" alt="Grandezas de base 10 maiores do que a
+unidade"></p>
+
+<p>As seguintes unidades de grandezas de base 10, menores do que a unidade,
+padronizadas pelo Sistema Internacional de Unidades, são:</p>
+
+<p><img src="imagens/unidades_decimais_menores.png" alt="Grandezas de base 10 menores do que a
+unidade"></p>
+
+<p>Resumo das unidades:</p>
+
+<p><img src="imagens/unidades_decimais.png" alt="Grandezas de base 10"></p>
+
+<h4 id="unidades-de-medida-binária">Unidades de medida binária</h4>
+<p>As unidades de medida no sistema binário, levam em consideração que:</p>
+
+<div class="alert" data-alert="primary" role="alert"><ul>
+  <li data-marker="*"><strong>bit (b)</strong>: um algarismo binário (0 ou 1)</li>
+  <li data-marker="*"><strong>nibble</strong>: um conjunto de 4 bits</li>
+  <li data-marker="*"><strong>Byte (B)</strong>: um conjunto de 8 bits</li>
+</ul></div>
+
+<p>O <strong>Byte</strong> (B) é a unidade fundamental de medida na computação pois armazena, em
+geral, 1 caractere. Não se esqueça que \(1\,\text{B} = 8\,\text{b}\), ou
+seja, 1 Byte corresponde a 8 bits.</p>
+
+<p>As unidades binárias padronizadas são:</p>
+
+<p><img src="imagens/unidades_binarias.png" alt="Grandezas de base 2"></p>
+
+<h4 id="comparação-entre-medidas-decimais-e-binárias">Comparação entre medidas decimais e binárias</h4>
+<p>Os prefixos e símbolos das unidades decimais e binárias são diferentes pois as
+unidades não correspondem exatamente entre si. As unidades binárias são sempre
+maiores do que as unidades decimais:</p>
+
+<p><img src="imagens/unidades_decimais_binarias.png" alt="Comparação de medidas decimais e
+binárias"></p>
+
+<h3 id="representação-de-textos">Representação de textos</h3>
+<p>Como podemos representar textos no computador? Se os computadores só entendem
+números binários, como podemos representar um texto como “<strong>Oi!</strong>”? É necessário
+fazer um mapeamento entre as letras e os números binários. Esse mapeamento é
+chamado de <em>encoding</em>.</p>
+
+<div class="alert" data-alert="primary" role="alert"><p>Encoding é o processo de mapear os caracteres em números binários, permitindo
+então que os caracteres sejam armazenados, transmitidos e processados por
+computadores.</p></div>
+
+<p>Um encoding clássico é o <strong>Código Morse</strong>, que faz o mapeamento das letras e
+demais caracteres em pontos e traços. Através desse mapeamento foi possível
+transmitir mensagens em longas distâncias utilizando-se um telégrafo.</p>
+
+<h4 id="ascii-american-standard-code-for-information-interchange">ASCII: American Standard Code for Information Interchange</h4>
+<p>O ASCII foi um dos primeiros encodings padronizados para mapear caracteres e
+números binários. Originalmente o ASCII utilizava 7 bits para representar os
+caracteres, significando que poderíamos mapear \(2^7 = 128\) caracteres, na
+faixa de \(0\) até \(127\). A tabela de mapeamento ASCII original está a seguir:</p>
+
+<p><img src="imagens/ascii.png" alt="Tabela ASCII"></p>
+
+<p>O ASCII tem duas características principais:</p>
+
+<ul>
+  <li data-marker="*">É um encoding <strong>direto</strong>, ou seja, cada letra é mapeada diretamente para uma
+seqüência binária específica, por exemplo: A = 1000001; e</li>
+  <li data-marker="*">É um encoding de <strong>tamanho fixo</strong>, ou seja, cada caractere é mapeado com 7
+bits.</li>
+</ul>
+
+<p>Como o ASCII pode mapear apenas 128 caracteres diversos caracteres não têm
+representação como, por exemplo, as letras acentuadas.</p>
+
+<p>Para incluir mais alguns caracteres foi criado o <em>Extended ASCII</em>, que passou a
+utilizar 8 bits para mapear os caracteres. Agora o ASCII poderia mapear \(2^8 =
+256\) caracteres, na faixa de \(0\) até \(255\). A tabela <em>Extended ASCII</em> está
+a seguir:</p>
+
+<p><img src="imagens/ascii_extended.png" alt="Tabela Extended ASCII"></p>
+
+<p><i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
+<a href="ascii.pdf">Clique aqui para fazer o download de um PDF com a tabela ASCII
+detalhada</a></p>
+
+<p>Entretanto, mesmo com 256 caracteres mapeados, a maioria dos sistemas de escrita
+utilizados no mundo não tem representação no ASCII: caracteres cirílicos,
+chineses, hieróglifos egípcios, sânscrito e muitos outros. Para superar as
+limitações do ASCII foi criado o padrão <strong>Unicode</strong>.</p>
+
+<h4 id="unicode">Unicode</h4>
 <p>(em breve)</p>
+
+<h3 id="anexo-conteúdo-adicional-sobre-representação-de-números">Anexo: conteúdo adicional sobre representação de números</h3>
+<p>Este anexo contém vídeos com conteúdo adicional a respeito da representação de
+números, incluindo:</p>
+
+<ol>
+  <li>Transformações entre sistemas numéricos</li>
+  <li>Representação de números inteiros negativos em binário</li>
+  <li>Representação de números fracionários em binário</li>
+</ol>
+
+<h4 id="transformações-entre-sistemas-numéricos">Transformações entre sistemas numéricos</h4>
+<p>(em breve)</p>
+<h4 id="representação-de-números-inteiros-negativos-em-binário">Representação de números inteiros negativos em binário</h4>
+<p>(em breve)</p>
+<h4 id="representação-de-números-fracionários-em-binário">Representação de números fracionários em binário</h4>
+<p>(em breve)</p>
+
 
 
                 </main>
@@ -499,7 +1114,7 @@ Euclides (conhecimento imperativo):</p>
 
         
  
-        <script src="../../assets/page.js?1704730210"></script>
+        <script src="../../assets/page.js?1705334935"></script>
 
     
 
