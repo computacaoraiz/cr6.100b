@@ -56,14 +56,25 @@ conteúdo da unidade.
       * [ASCII: American Standard Code for Information
         Interchange](#ascii-american-standard-code-for-information-interchange)
       * [Unicode](#unicode)
-    - [Anexo: conteúdo adicional sobre representação de
-      números](#anexo-conteúdo-adicional-sobre-representação-de-números)
-      * [Transformações entre sistemas
-          numéricos](#transformações-entre-sistemas-numéricos)
-      * [Representação de números inteiros negativos em
-          binário](#representação-de-números-inteiros-negativos-em-binário)
+    - [Representação de cores](#representação-de-cores)
+    - [Representação de imagens](#representação-de-imagens)
+    - [Representação de áudio](#representação-de-áudio)
+    - [Representação de vídeo](#representação-de-vídeo)
+    - [Diferenciação entre padrões
+      binários](#diferenciação-entre-os-padrões-binários)
+    - [Anexos: conteúdo adicional sobre representação de
+      números](#anexos-conteúdo-adicional-sobre-representação-de-números)
+      * [Conversão entre bases numéricas](#conversão-entre-bases-numéricas)
+      * [Outros conceitos fundamentais sobre representação de dados
+        numéricos](#outros-conceitos-fundamentais-sobre-representação-de-dados-numéricos)
+      * [Representação de números negativos em
+        binário](#representação-de-números-negativos-em-binário)
       * [Representação de números fracionários em
-          binário](#representação-de-números-fracionários-em-binário)
+        binário](#representação-de-números-fracionários-em-binário)
+      * [BCD e expansão do sinal](#bcd-e-expansão-do-sinal)
+- PARTE 3: algoritmos
+- PARTE 4: pensamento computacional
+- PARTE 5: abstração
 * [Diário de Aprendizagem](diario_unidade_0.pdf)
 
 
@@ -947,18 +958,57 @@ limitações do ASCII foi criado o padrão **Unicode**.
 #### Unicode
 (em breve)
 
-### Anexo: conteúdo adicional sobre representação de números
+### Representação de cores
+(em breve)
+
+### Representação de imagens
+(em breve)
+
+### Representação de áudio
+(em breve)
+
+### Representação de vídeo
+(em breve)
+
+### Diferenciação entre os padrões binários
+(em breve)
+
+### Anexos: conteúdo adicional sobre representação de números
 Este anexo contém vídeos com conteúdo adicional a respeito da representação de
 números, incluindo:
 
-0. Transformações entre sistemas numéricos
-0. Representação de números inteiros negativos em binário
+0. Conversão entre bases numéricas
+0. Outros conceitos fundamentais sobre representação de dados numéricos
+0. Representação de números negativos em binário
 0. Representação de números fracionários em binário
+0. BCD e expansão do sinal
 
-#### Transformações entre sistemas numéricos
-(em breve)
-#### Representação de números inteiros negativos em binário
-(em breve)
+A duração dos vídeos nesses anexos variam entre 1 e 6 horas de duração, portanto
+você não deve assistir todos os vídeos de uma única vez. Crie um roteiro de
+estudos para assistir pequenas partes de cada vez, mas assista a todos os vídeos
+(esse conhecimento será útil!).
+
+#### Conversão entre bases numéricas
+{% video https://www.youtube.com/watch?v=7u4lJQE2xOk %}
+<i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
+[Download dos slides do vídeo](unidade1_parte2_anexo1.pdf)
+
+#### Outros conceitos fundamentais sobre representação de dados numéricos
+{% video https://www.youtube.com/watch?v=MxdbxybOlmE %}
+<i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
+[Download dos slides do vídeo](unidade1_parte2_anexo2.pdf)
+
+#### Representação de números negativos em binário
+{% video https://www.youtube.com/watch?v=gLBV2iU_EbM %}
+<i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
+[Download dos slides do vídeo](unidade1_parte2_anexo3.pdf)
+
 #### Representação de números fracionários em binário
-(em breve)
+{% video https://www.youtube.com/watch?v=QdOMYMvn2h8 %}
+<i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
+[Download dos slides do vídeo](unidade1_parte2_anexo4.pdf)
 
+#### BCD e expansão do sinal
+{% video https://www.youtube.com/watch?v=8Tl0I2Ihc0w %}
+<i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
+[Download dos slides do vídeo](unidade1_parte2_anexo5.pdf)
