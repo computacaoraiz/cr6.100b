@@ -10,6 +10,14 @@ como: visão geral da disciplina, quais seus objetivos, o que esperamos que voc�
 aprenda, quais as unidades de aprendizagem, métodos de avaliação e muitas outras
 informações úteis para que seu aproveitamento seja maximizado.
 
+Você também começará a leitura do [Blown to Bits](https://www.bitsbook.com/), um
+livro fantástico que nos mostra como a explosão digital está mudando toda nossa
+vida, para melhor ou para pior. Nesta unidade você deve fazer a leitura do
+prefácio (páginas vii-viii) e das páginas iniciais do capítulo 1 (páginas 1-4).
+Obs.: a numeração das páginas refere-se à [**versão em
+porgutuês**](/assets/bitsbook/blown_to_bits_2e_pt-BR.pdf) que está sendo
+traduzida pelo Computação Raiz.
+
 Sumário:
 * [Vídeo da aula](#vídeo-da-aula)
 - Material de referência nesta página:
