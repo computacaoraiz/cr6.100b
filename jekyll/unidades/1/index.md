@@ -72,9 +72,9 @@ conteúdo da unidade.
       * [Representação de números fracionários em
         binário](#representação-de-números-fracionários-em-binário)
       * [BCD e expansão do sinal](#bcd-e-expansão-do-sinal)
-- PARTE 3: algoritmos
-- PARTE 4: pensamento computacional
-- PARTE 5: abstração
+- PARTE 3: [algoritmos](#parte-3-algoritmos)
+- PARTE 4: [pensamento computacional](#parte-4-pensamento-computacional)
+- PARTE 5: [abstração](#parte-5-abstração)
 * [Diário de Aprendizagem](diario_unidade_0.pdf)
 
 
