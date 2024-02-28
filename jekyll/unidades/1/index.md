@@ -1012,3 +1012,30 @@ estudos para assistir pequenas partes de cada vez, mas assista a todos os vídeo
 {% video https://www.youtube.com/watch?v=8Tl0I2Ihc0w %}
 <i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
 [Download dos slides do vídeo](unidade1_parte2_anexo5.pdf)
+
+
+## PARTE 3: algoritmos
+{% video https://www.youtube.com/watch?v=NIy_YxAS570 %}
+<i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
+[Download dos slides do vídeo](unidade1_parte3.pdf)
+
+<i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
+[Download do "Símbolos em Fluxogramas: Guia Simplificado"](simbolos_fluxogramas_guia_simplificado.pdf)
+
+(em breve)
+
+
+## PARTE 4: pensamento computacional
+{% video https://www.youtube.com/watch?v=w4XK1nY-pMc %}
+<i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
+[Download dos slides do vídeo](unidade1_parte4.pdf)
+
+(em breve)
+
+
+## PARTE 5: abstração
+{% video https://www.youtube.com/watch?v=pPNKC6ii8cE %}
+<i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
+[Download dos slides do vídeo](unidade1_parte5.pdf)
+
+(em breve)
