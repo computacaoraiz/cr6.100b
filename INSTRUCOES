@@ -6,7 +6,7 @@ Instalar novos pré-requisitos:
 
 
 Rodar o Jekyll localmente:
-  bundle exec jekyll serve
+  bundle exec jekyll serve --livereload
 
 
 Fazer o build para produção:

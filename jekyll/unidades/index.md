@@ -10,8 +10,8 @@ title: Unidades
   <li><span class="fa-li fa-solid fa-microchip"></span>
       <div><strong>Unidade 1</strong>: <a href="/unidades/1/">fundamentos da computação</a>.</div></li>
   <li><span class="fa-li fa-solid fa-gear-complex-code"></span>
-      <div><strong>Unidade 2</strong>: fundamentos da programação (Scratch e
-      Snap!).</div></li>
+      <div><strong>Unidade 2</strong>: <a href="/unidades/2/">fundamentos da programação (Scratch e
+      Snap!)</a>.</div></li>
   <li><span class="fa-li fa-solid fa-c"></span>
       <div><strong>Unidade 3</strong>: linguagem C.</div></li>
   <li><span class="fa-li fa-kit fa-array fa-lg"></span>

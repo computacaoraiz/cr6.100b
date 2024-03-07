@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/cs50/jekyll-theme-cs50
-  revision: 729caa0c3877cb05afcb4be4387aefdf9a9957cc
+  revision: a1822e51e76c0607d80a81e768d2a6e9a3c039d6
   branch: develop
   specs:
     jekyll-theme-cs50 (1.1.0)
@@ -39,7 +39,7 @@ GEM
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
     httpclient (2.8.3)
-    i18n (1.14.1)
+    i18n (1.14.4)
       concurrent-ruby (~> 1.0)
     jekyll (4.3.3)
       addressable (~> 2.4)
@@ -93,11 +93,11 @@ GEM
       coderay (~> 1.1)
       kramdown (~> 2.0)
     liquid (4.0.4)
-    listen (3.8.0)
+    listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    nokogiri (1.15.5-x86_64-linux)
+    nokogiri (1.16.2-x86_64-linux)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
