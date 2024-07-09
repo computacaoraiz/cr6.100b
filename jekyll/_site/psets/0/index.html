@@ -1,0 +1,230 @@
+<!DOCTYPE html><html lang="pt-br"><head>
+	<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JQ1JYH7SD7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JQ1JYH7SD7');
+</script>
+
+
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width"><meta property="og:description" content="Disciplina de introdução à Ciência da Computação, para estudantes brasileiros, adaptada da Harvard CS50x.">
+
+        <meta property="og:image" content=""><meta property="og:title" content="PSET 0 - CR6.100B">
+
+        <link href="../../favicon.ico?1720494540" rel="icon">
+
+        <!-- https://fonts.google.com/specimen/PT+Sans?query=PT+Sans&selection.family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700 -->
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+        <!-- https://getbootstrap.com/docs/ -->
+        <script src="../../assets/jquery/dist/jquery.min.js?1720494540"></script>
+        <script src="../../assets/bootstrap/dist/js/bootstrap.bundle.min.js?1720494540"></script>
+
+        <!-- https://bootstrap-table.com/docs/getting-started/introduction/ -->
+        <link href="../../assets/bootstrap-table/dist/bootstrap-table.min.css?1720494540" rel="stylesheet">
+        <script src="../../assets/bootstrap-table/dist/bootstrap-table.min.js?1720494540"></script>
+        <script src="../../assets/bootstrap-table/dist/extensions/mobile/bootstrap-table-mobile.min.js?1720494540"></script>
+
+        <!-- https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use -->
+        
+        <link crossorigin="anonymous" href="https://kit.fontawesome.com/082b54de62.css" rel="stylesheet">
+        
+
+        <!-- https://moment.github.io/luxon/ -->
+        <script src="../../assets/luxon/build/global/luxon.min.js?1720494540"></script>
+
+        <!-- http://docs.mathjax.org/ -->
+        <!-- http://docs.mathjax.org/en/latest/options/output/chtml.html?highlight=displayAlign#the-configuration-block -->
+        <script>
+            MathJax = {
+               chtml: {
+                    displayAlign: "left"
+                }
+            };
+        </script>
+        <script src="../../assets/mathjax/es5/tex-chtml.js?1720494540"></script>
+
+        <!-- https://github.com/verlok/vanilla-lazyload -->
+        <script src="../../assets/intersection-observer/intersection-observer.js?1720494540"></script>
+        <script src="../../assets/vanilla-lazyload/dist/lazyload.min.js?1720494540"></script>
+
+        <!-- https://github.com/davidjbradshaw/iframe-resizer -->
+        <script src="../../assets/iframe-resizer/js/iframeResizer.min.js?1720494540"></script>
+
+        <!-- https://github.com/scratchblocks/scratchblocks/releases -->
+        <script src="../../assets/scratchblocks.min.js?1720494540"></script>
+
+        <!-- https://mermaid-js.github.io/ -->
+        <script src="../../assets/mermaid.min.js?1720494540"></script>
+
+        <!-- https://github.com/twitter/twemoji -->
+        <script src="../../assets/twemoji/dist/twemoji.min.js?1720494540"></script>
+
+        
+
+        <link href="../../assets/page.css?1720494540" rel="stylesheet">
+        <script src="../../assets/jekyll-theme-cs50.js?1720494540"></script>
+
+        <script>
+            window.CS50 = {
+                local: {"day":"numeric","hour":"numeric","minute":"numeric","month":"long","timeZoneName":"short","weekday":"long","year":"numeric"},
+                locale: "pt-BR",
+                tz: "America/Sao_Paulo"
+            };
+        </script>
+
+        <title>PSET 0 - CR6.100B</title>
+
+
+    </head>
+
+    <body class="invisible">
+
+        <div class="alert fixed-top mb-0 rounded-0" data-alert="waring" data-hash="d3a59f943e644130e034baef81ee491b" id="alert" role="alert">
+            <button aria-label="Close" class="btn-close d-none" data-bs-dismiss="alert" type="button"></button><p>Este projeto de adaptação da Harvard CS50 ainda está <strong>em andamento</strong>. Por favor
+entenda que muitas partes ainda não estão prontas e, mesmo as que já estão
+prontas, estão sujeitas à revisões posteriores até que a versão final seja
+lançada.</p></div>
+        
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <aside class="col-lg">
+ 
+                    <header><h1 data-id="cr6100b"><a href="../..">CR6.100B</a></h1>
+<h2 data-id="introdução-à-ciência-da-computação-baseada-e-adaptada-da-harvard-cs50">Introdução à Ciência da Computação (baseada e adaptada da <a href="https://cs50.harvard.edu/x/">Harvard CS50</a>)</h2>
+
+<p><a href="https://cs50.harvard.edu/donate"><em>Donate to CS50</em><i aria-hidden="true" class="fas fa-external-link-alt ps-2"></i></a>
+<br>
+<a href="https://apoia.se/computacaoraiz">Doe para a CR6.100B<i aria-hidden="true" class="fas fa-external-link-alt ps-2"></i></a></p>
+
+<p><a href="https://www.computacaoraiz.com.br">Abrantes Araújo Silva Filho</a>
+<br>
+<a href="mailto:abrantesasf@computacaoraiz.com.br"><i class="fa-regular fa-envelope"></i> Envie um e-mail</a>
+<br>
+<a class="mr-1" href="https://www.youtube.com/computacaoraiz"><i aria-hidden="true" class="fa-brands fa-youtube" title="YouTube"></i><span class="sr-only">YouTube</span></a>
+<a class="mr-1" href="https://github.com/computacaoraiz"><i aria-hidden="true" class="fa-brands fa-github" title="GitHub"></i><span class="sr-only">GitHub</span></a>
+<a class="mr-1" href="https://www.instagram.com/computacaoraiz/"><i aria-hidden="true" class="fa-brands fa-instagram" title="Instagram"></i><span class="sr-only">Instagram</span></a>
+<a class="mr-1" href="https://www.linkedin.com/in/abrantes-filho/"><i aria-hidden="true" class="fa-brands fa-linkedin" title="LinkedIn"></i><span class="sr-only">LinkedIn</span></a>
+<a class="mr-1" href="https://twitter.com/computacaoraiz"><i aria-hidden="true" class="fa-brands fa-twitter" title="Twitter"></i><span class="sr-only">Twitter</span></a></p></header>
+
+                    
+
+                    <button aria-controls="nav" aria-expanded="false" class="btn btn-sm collapsed d-lg-none" data-bs-target="aside > nav" data-bs-toggle="collapse">
+                        Menu
+                    </button>
+
+                    <nav class="collapse d-lg-block" id="nav"><hr>
+
+<ul>
+  <li data-marker="*"><a href="../../zoom/"><i class="fas fa-video pe-2"></i> Reuniões Zoom</a></li>
+</ul>
+<hr>
+
+<ul>
+  <li data-marker="*"><a href="https://cs50.dev"><i class="fa-duotone fa-browser"></i> Visual Studio Code for
+CS50</a></li>
+  <li data-marker="*"><a href="https://we.tl/t-bK9ZIRkT4G"><i class="fa-solid fa-computer"></i> Máquina Virtual Linux</a></li>
+  <li data-marker="*"><a href="https://cs50.ai/"><i class="fa-solid fa-duck pe-2 text-decoration-none"></i> CS50.ai</a></li>
+  <li data-marker="*"><a href="https://autolab.computacaoraiz.com.br"><i class="fa-solid fa-hundred-points"></i> Autolab</a>
+(só presencial)</li>
+  <li data-marker="*"><a href="https://cursos.computacaoraiz.com.br"><i class="fa-light fa-chalkboard-user"></i> e-Learning</a>
+(só presencial)</li>
+</ul>
+<hr>
+
+<ul>
+  <li data-marker="*"><a href="../../unidades/0/"><i class="fa-regular fa-book-open-reader"></i> Unidade 0: introdução</a></li>
+  <li data-marker="*"><a href="../../unidades/1/"><i class="fa-solid fa-microchip"></i> Unidade 1: computação</a></li>
+  <li data-marker="*"><a href="../../unidades/2/"><i class="fa-solid fa-gear-complex-code"></i> Unidade 2: programação</a></li>
+  <li data-marker="*"><i class="fa-solid fa-c"></i> Unidade 3: C</li>
+  <li data-marker="*"><i class="fa-kit fa-array"></i> Unidade 4: arrays</li>
+  <li data-marker="*"><i class="fa-solid fa-arrow-down-1-9"></i> Unidade 5: algoritmos</li>
+  <li data-marker="*"><i class="fa-regular fa-memory"></i> Unidade 6: memória</li>
+  <li data-marker="*"><i class="fa-light fa-circle-nodes"></i> Unidade 7: estrut. de dados</li>
+  <li data-marker="*"><i class="fa-brands fa-python"></i> Unidade 8: Python</li>
+  <li data-marker="*"><i class="fa-solid fa-database"></i> Unidade 9: SQL</li>
+  <li data-marker="*"><i class="fa-brands fa-square-js"></i> Unidade 10: HTML, CSS, JS</li>
+  <li data-marker="*"><i class="fa-kit fa-flask"></i> Unidade 11: Flask</li>
+  <li data-marker="*"><i class="fa-solid fa-list-check"></i> Unidade 12: Tópicos</li>
+  <li data-marker="*"><i class="fa-regular fa-graduation-cap"></i> Unidade 13: Projeto final</li>
+  <li data-marker="*"><i class="fa-light fa-language"></i> Unidade 14: LP</li>
+  <li data-marker="*"><i class="fa-regular fa-alien-8bit"></i> Unidade 15: CG</li>
+  <li data-marker="*"><i class="fa-light fa-user-robot"></i> Unidade 16: IA</li>
+  <li data-marker="*"><i class="fa-sharp fa-solid fa-book"></i> Unidade 17: Teoria</li>
+</ul></nav>
+
+                    <footer></footer>
+
+                </aside>
+
+                <main class="col-lg">
+
+                    <h1 id="-pset-0-scratch"><i class="fa-solid fa-head-side-gear"></i> PSET 0: Scratch</h1>
+
+<p>Este é seu primeiro <strong>PSET</strong> (uma abreviatura do inglês “<em>Problem Set</em>”), uma
+tarefa de programação desafiadora, criada para testar ao máximo seu aprendizado
+de uma unidade. Você pode começar imediatamente a trabalhar, seguindo as
+informações abaixo, ou pode <a href="../">saber mais sobre os PSETs</a> se tiver
+curiosidade.</p>
+
+<div class="alert" data-alert="danger" role="alert"><p>A colaboração nos PSETs não é permitida exceto, no máximo, se você solicitar
+ajuda aos seus colegas ou terceiros de modo que essa ajuda não seja para que o
+outro faça o trabalho para você. Consulte a política de integridade acadêmica da
+disciplina.</p>
+
+<p>Os professores, monitores e auxiliares realizam auditorias aleatórias dos envios
+para a CS50x. Todos os envios para o Autolab da CR6.100B também são auditados
+com ferramentas automatizadas para detecção de plágio ou cópia de
+código. Estudantes que violarem a política de integridade acadêmica poderão ser
+expulsos do curso e, mesmo que já tenham terminado, podem ter seus certificados
+de conclusão revogados.</p></div>
+
+<h2 id="sua-tarefa-de-programação">Sua tarefa de programação</h2>
+
+<p>Implemente um programa Scratch de sua escolha, conforme as especificações
+abaixo:</p>
+
+<ul>
+  <li data-marker="*">Seu projeto deve usar pelo menos dois sprites (personagens), sendo que pelo
+menos um deles não pode ser um gato;</li>
+  <li data-marker="*">Seu projeto deve ter pelo menos três scripts no total (ou seja, não
+necessariamente três scripts por sprite);</li>
+  <li data-marker="*">Seu projeto deve usar pelo menos uma condicional, pelo menos um loop, e
+pelo menos uma variável;</li>
+  <li data-marker="*">Seu projeto deve usar pelo menos um bloco personalizado que você mesmo
+criou (através do Make a Block), que deve receber pelo menos uma entrada;</li>
+  <li data-marker="*">Seu projeto deve ser mais complexo do que a maioria dos demonstrados na
+aula (muitos dos quais, embora instrutivos, foram bastante curtos), mas pode
+ser menos complexo do que Oscartime 14 e o Ivy’s Hardest Game 15 ; e</li>
+  <li data-marker="*">Seu projeto final deve ter menos de 10 MB de tamanho em disco.</li>
+</ul>
+
+<div class="alert" data-alert="info" role="alert"><p>Faça o <a href="cs50_scratch-handout.rar"><strong>download do arquivo de <em>handout</em></strong></a>, que
+contém uma explicação mais detalhada da tarefa de programação, bem como dicas e
+links para sites com exemplos e instruções que você pode consultar. Leia esse
+documento com atenção! Este arquivo também explica como você deve enviar seu
+projeto para avaliação.</p></div>
+
+
+                </main>
+
+            </div>
+
+        </div>
+
+        
+ 
+        <script src="../../assets/page.js?1720494540"></script>
+
+    
+
+
+</body></html>
