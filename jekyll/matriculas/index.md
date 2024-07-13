@@ -63,6 +63,7 @@ oferece:
          * Fotos e notícias de bastidores e atualizações de status
          * Prioridade nos comentários
          * Acesso antecipado aos vídeos
+         * Shorts exclusivos para membros
          * Responder pesquisas
 0. **Apoiador**: R$ 24,99 por mês (disponível a partir de 30/jul/2024)
      * Se você quiser contribuir mais ainda com nosso canal e com o CR6.100B
