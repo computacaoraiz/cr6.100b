@@ -60,7 +60,6 @@ oferece:
        benefícios:
          * Distintivos (badges) para usar junto com os usernames
          * Emojis para usar em chats e comentários
-         * Acesso ao chat de membros
          * Fotos e notícias de bastidores e atualizações de status
          * Prioridade nos comentários
          * Acesso antecipado aos vídeos
