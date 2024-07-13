@@ -115,7 +115,7 @@ oferece:
          * Acesso ao grupo privado do Telegram
          * Agradecimentos e menções nos vídeos
          * 20% de desconto em cursos futuros
-0. **Professor particular para a CR6.100B**: R$ 299,99 por mês (disponível a
+0. **Professor particular para a CR6.100B**: R$ 399,99 por mês (disponível a
    partir de 15/set/2024)
      * Se você quiser ser um aluno oficialmente matriculado em uma turma da
        CR6.100B, com acesso à aulas individuais semanais, de 1 hora, para
