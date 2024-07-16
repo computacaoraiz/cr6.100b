@@ -18,14 +18,17 @@ conteúdo da unidade.
 - PARTE 0: [visão geral da unidade](#parte-0-visão-geral-da-unidade)
     * Vídeo da parte 0
 - PARTE 1: [Scratch: fundamentos da
-  programação](#parte-1-fundamentos-da-programação)
-    * [Vídeo da parte 1](#vídeo-da-parte-1-fundamentos-da-programação)
-- PARTE 2: [Exemplos em Scratch](#parte-2-exemplos-em-scratch)
-    * [Vídeo da parte 2](#vídeo-da-parte-2-exemplos-em-scratch)
-- PARTE 3: [Funções e variáveis](#parte-3-funções-e-variáveis)
-    * [Vídeo da parte 3](#vídeo-da-parte-3-funções-e-variáveis)
-- PARTE 4: [Conceitos avançados](#parte-4-conceitos-avançados)
-    * [Vídeo da parte 4](#vídeo-da-parte-4-conceitos-avançados)
+  programação](/unidades/2/#parte-1-fundamentos-da-programação)
+    * [Vídeo da parte
+      1](/unidades/2/#vídeo-da-parte-1-fundamentos-da-programação)
+- PARTE 2: [Exemplos em Scratch](/unidades/2/#parte-2-exemplos-em-scratch)
+    * [Vídeo da parte 2](/unidades/2/#vídeo-da-parte-2-exemplos-em-scratch)
+- PARTE 3: [Funções e variáveis](/unidades/2/#parte-3-funções-e-variáveis)
+    * [Vídeo da parte 3](/unidades/2/#vídeo-da-parte-3-funções-e-variáveis)
+- PARTE 4: [Conceitos avançados](/unidades/2/#parte-4-conceitos-avançados)
+    * [Vídeo da parte 4](/unidades/2/#vídeo-da-parte-4-conceitos-avançados)
+- PARTE 5: [PSET 0: Scratch](/unidades/2/#parte-5-pset-0-scratch)
+    * [Vídeo da parte 5](/unidades/2/#vídeo-da-parte-5-pset-0-scratch)
 - PSET 0: [Scratch](#pset-0)
 
 
@@ -38,7 +41,7 @@ conteúdo da unidade.
 ### Vídeo da parte 1: Scratch
 {% video https://www.youtube.com/watch?v=jaxotbKfnWA %}
 <i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
-[Download dos slides do vídeo](unidade2_parte1.pdf)
+[Download dos slides do vídeo](/unidades/2/unidade2_parte1.pdf)
 
 
 ## PARTE 2: Exemplos em Scratch
@@ -46,7 +49,7 @@ conteúdo da unidade.
 ### Vídeo da parte 2: exemplos em Scratch
 {% video https://www.youtube.com/watch?v=YWIVJrV-EYs %}
 <i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
-[Download dos slides do vídeo](unidade2_parte2.pdf)
+[Download dos slides do vídeo](/unidades/2/unidade2_parte2.pdf)
 
 
 ## PARTE 3: Funções e variáveis
@@ -54,7 +57,7 @@ conteúdo da unidade.
 ### Vídeo da parte 3: funções e variáveis
 {% video https://www.youtube.com/watch?v=jeFJuow44kI %}
 <i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
-[Download dos slides do vídeo](unidade2_parte3.pdf)
+[Download dos slides do vídeo](/unidades/2/unidade2_parte3.pdf)
 
 
 ## PARTE 4: Conceitos avançados
@@ -62,7 +65,16 @@ conteúdo da unidade.
 ### Vídeo da parte 4: conceitos avançados
 {% video https://www.youtube.com/watch?v=dWMx4503llQ %}
 <i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
-[Download dos slides do vídeo](unidade2_parte4.pdf)
+[Download dos slides do vídeo](/unidades/2/unidade2_parte4.pdf)
+
+
+## PARTE 5: PSET 0: Scratch
+
+### Vídeo da parte 5: PSET 0: Scratch
+(disponível ao público a partir de: 20/07/2024, 00:00h)
+{% video https://www.youtube.com/watch?v=21Vknz2W9FA %}
+<i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
+[Download dos slides do vídeo](/unidades/2/unidade2_parte5.pdf)
 
 
 ## PSET 0

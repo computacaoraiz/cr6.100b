@@ -5,7 +5,7 @@
 <br />
 [<i class="fa-sharp fa-regular fa-gift"></i> Doe para a CR6.100B<i aria-hidden="true" class="fas fa-external-link-alt ps-2"></i>](https://apoia.se/computacaoraiz)
 
-[Abrantes Araújo Silva Filho](https://www.computacaoraiz.com.br)
+[<i class="fa-solid fa-person-chalkboard"></i> Abrantes Araújo Silva Filho](https://www.computacaoraiz.com.br)
 <br />
 [<i class="fa-regular fa-envelope"></i> Envie um e-mail](mailto:abrantesasf@computacaoraiz.com.br)
 <br />

@@ -21,67 +21,70 @@ texto correspondente e demais recursos. Utilize o sumário abaixo para navegar n
 conteúdo da unidade.
 
 **Sumário:**
-- PARTE 0: [visão geral da unidade](#parte-0-visão-geral-da-unidade)
-    * [Vídeo da parte 0](#parte-0-visão-geral-da-unidade)
+- PARTE 0: [visão geral da unidade](/unidades/1/#parte-0-visão-geral-da-unidade)
+    * [Vídeo da parte 0](/unidades/1/#parte-0-visão-geral-da-unidade)
 - PARTE 1: [o que é ciência da
-  computação?](#parte-1-o-que-é-ciência-da-computação)
-    * [Vídeo da parte 1](#vídeo-da-parte-1-o-que-é-ciência-da-computação)
+  computação?](/unidades/1/#parte-1-o-que-é-ciência-da-computação)
+    * [Vídeo da parte
+      1](/unidades/1/#vídeo-da-parte-1-o-que-é-ciência-da-computação)
     * [Essência e conceito da ciência da
-      computação](#essência-e-conceito-da-ciência-da-computação)
-    * [Modelo geral da computação](#modelo-geral-da-computação)
+      computação](/unidades/1/#essência-e-conceito-da-ciência-da-computação)
+    * [Modelo geral da computação](/unidades/1/#modelo-geral-da-computação)
     * [Conhecimento declarativo e
-      imperativo](#conhecimento-declarativo-e-imperativo)
-- PARTE 2: [representação de dados](#parte-2-representação-de-dados)
-    * [Vídeo da parte 2](#vídeo-da-parte-2-representação-de-dados)
+      imperativo](/unidades/1/#conhecimento-declarativo-e-imperativo)
+- PARTE 2: [representação de dados](/unidades/1/#parte-2-representação-de-dados)
+    * [Vídeo da parte 2](/unidades/1/#vídeo-da-parte-2-representação-de-dados)
     * [Por que é importante entender a representação de
-      dados?](#por-que-é-importante-entender-a-representação-de-dados)
-    - [Representação de números](#representação-de-números)
+      dados?](/unidades/1/#por-que-é-importante-entender-a-representação-de-dados)
+    - [Representação de números](/unidades/1/#representação-de-números)
       * [Noção intuitiva dos sistemas
-        numéricos](#noção-intuitiva-dos-sistemas-numéricos)
+        numéricos](/unidades/1/#noção-intuitiva-dos-sistemas-numéricos)
       * [Por que os computadores "falam"
-        binário?](#por-que-os-computadores-falam-binário)
+        binário?](/unidades/1/#por-que-os-computadores-falam-binário)
       * [Formalização dos sistemas
-        numéricos](#formalização-dos-sistemas-numéricos)
-        * [Sistema decimal](#sistema-decimal)
-        * [Sistema binário](#sistema-binário)
-        * [Sistema octal](#sistema-octal)
-        * [Sistema hexadecimal](#sistema-hexadecimal)
+        numéricos](#/unidades/1/formalização-dos-sistemas-numéricos)
+        * [Sistema decimal](/unidades/1/#sistema-decimal)
+        * [Sistema binário](/unidades/1/#sistema-binário)
+        * [Sistema octal](/unidades/1/#sistema-octal)
+        * [Sistema hexadecimal](/unidades/1/#sistema-hexadecimal)
         * [Generalização para outros
-          sistemas](#generalização-para-outros-sistemas)
-      * [Unidades de medida decimal](#unidades-de-medida-decimal)
-      * [Unidades de medida binária](#unidades-de-medida-binária)
+          sistemas](/unidades/1/#generalização-para-outros-sistemas)
+      * [Unidades de medida decimal](/unidades/1/#unidades-de-medida-decimal)
+      * [Unidades de medida binária](/unidades/1/#unidades-de-medida-binária)
       * [Comparação entre medidas decimais e
-        binárias](#comparação-entre-medidas-decimais-e-binárias)
-    - [Representação de textos](#representação-de-textos)
+        binárias](/unidades/1/#comparação-entre-medidas-decimais-e-binárias)
+    - [Representação de textos](/unidades/1/#representação-de-textos)
       * [ASCII: American Standard Code for Information
-        Interchange](#ascii-american-standard-code-for-information-interchange)
-      * [Unicode](#unicode)
-    - [Representação de cores](#representação-de-cores)
-    - [Representação de imagens](#representação-de-imagens)
-    - [Representação de áudio](#representação-de-áudio)
-    - [Representação de vídeo](#representação-de-vídeo)
+        Interchange](/unidades/1/#ascii-american-standard-code-for-information-interchange)
+      * [Unicode](/unidades/1/#unicode)
+    - [Representação de cores](/unidades/1/#representação-de-cores)
+    - [Representação de imagens](/unidades/1/#representação-de-imagens)
+    - [Representação de áudio](/unidades/1/#representação-de-áudio)
+    - [Representação de vídeo](/unidades/1/#representação-de-vídeo)
     - [Diferenciação entre padrões
-      binários](#diferenciação-entre-os-padrões-binários)
+      binários](/unidades/1/#diferenciação-entre-os-padrões-binários)
     - [Anexos: conteúdo adicional sobre representação de
-      números](#anexos-conteúdo-adicional-sobre-representação-de-números)
-      * [Conversão entre bases numéricas](#conversão-entre-bases-numéricas)
+      números](/unidades/1/#anexos-conteúdo-adicional-sobre-representação-de-números)
+      * [Conversão entre bases
+        numéricas](/unidades/1/#conversão-entre-bases-numéricas)
       * [Outros conceitos fundamentais sobre representação de dados
-        numéricos](#outros-conceitos-fundamentais-sobre-representação-de-dados-numéricos)
+        numéricos](/unidades/1/#outros-conceitos-fundamentais-sobre-representação-de-dados-numéricos)
       * [Representação de números negativos em
-        binário](#representação-de-números-negativos-em-binário)
+        binário](/unidades/1/#representação-de-números-negativos-em-binário)
       * [Representação de números fracionários em
-        binário](#representação-de-números-fracionários-em-binário)
-      * [BCD e expansão do sinal](#bcd-e-expansão-do-sinal)
-- PARTE 3: [algoritmos](#parte-3-algoritmos)
-- PARTE 4: [pensamento computacional](#parte-4-pensamento-computacional)
-- PARTE 5: [abstração](#parte-5-abstração)
-* [Diário de Aprendizagem](diario_unidade_0.pdf)
+        binário](/unidades/1/#representação-de-números-fracionários-em-binário)
+      * [BCD e expansão do sinal](/unidades/1/#bcd-e-expansão-do-sinal)
+- PARTE 3: [algoritmos](/unidades/1/#parte-3-algoritmos)
+- PARTE 4: [pensamento
+  computacional](/unidades/1/#parte-4-pensamento-computacional)
+- PARTE 5: [abstração](/unidades/1/#parte-5-abstração)
+* [Diário de Aprendizagem](/unidades/1/diario_unidade_1.pdf)
 
 
 ## PARTE 0: visão geral da unidade
 {% video https://www.youtube.com/watch?v=XbuHXSoKZOM %}
 <i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
-[Download dos slides do vídeo](unidade1_parte0.pdf)
+[Download dos slides do vídeo](/unidades/1/unidade1_parte0.pdf)
 
 Esta unidade compreende o estudo dos **fundamentos da computação** e dará a base
 a partir da qual você aprenderá os pilares da computação e formará uma fundação
@@ -97,14 +100,14 @@ abstração. A abstração, na verdade, é um dos componentes do pensamento
 computacional mas, de tão importante, merece uma discussão detalhada em
 separado. Este é o conteúdo desta unidade:
 
-![Mapa mental da unidade 1](imagens/mapa_unidade.png)
+![Mapa mental da unidade 1](/unidades/1/imagens/mapa_unidade.png)
 
 
 ## PARTE 1: o que é ciência da computação?
 ### Vídeo da parte 1: o que é ciência da computação?
 {% video https://www.youtube.com/watch?v=qzxw-Tm8UgI %}
 <i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
-[Download dos slides do vídeo](unidade1_parte1.pdf)
+[Download dos slides do vídeo](/unidades/1/unidade1_parte1.pdf)
 
 ### Essência e conceito da ciência da computação
 Existe uma certa confusão sobre o que é realmente a ciência da
@@ -232,7 +235,7 @@ trabalhos descreviam um modo sistemático de obter soluções para equações
 quadráticas, ou seja, uma "receita" a ser seguida. A foto abaixo é uma estátua
 em sua homenagem, na cidade de Khiva, atual Uzbequistão:
 
-![al-khwarizmi](imagens/alkhwarizmi.jpg)
+![al-khwarizmi](/unidades/1/imagens/alkhwarizmi.jpg)
 
 ### Modelo geral da computação
 Quando falamos que a ciência da computação resolve problemas, uma pergunta óbvia
@@ -240,7 +243,7 @@ Quando falamos que a ciência da computação resolve problemas, uma pergunta ó
 geral" através do qual a computação resolve problemas. Esse modelo de computação
 pode ser ilustrado na figura abaixo:
 
-![Modelo geral da computação](imagens/modelo_da_computacao.png)
+![Modelo geral da computação](/unidades/1/imagens/modelo_da_computacao.png)
 
 A partir de um determinado **problema**, fazemos o **input** (entrada) do
 problema no computador. Esse problema será tratado por um **algoritmo** (a
@@ -388,7 +391,7 @@ grandes temas tratados:
 
 {% video https://www.youtube.com/watch?v=8T_hJhYg4R0 %}
 <i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
-[Download dos slides do vídeo](unidade1_parte2.pdf)
+[Download dos slides do vídeo](/unidades/1/unidade1_parte2.pdf)
 
 
 ### Por que é importante entender a representação de dados?
@@ -400,7 +403,8 @@ trabalhar com dados diversos mas, nos computadores, não temos toda essa
 liberdade. Então, de que forma podemos representar dados? Essa parte mostrará em
 detalhes a representação de números, textos, cores, imagens, áudio e vídeo:
 
-![Mapa do conteúdo de representação de dados](imagens/mapa_parte_2.png)
+![Mapa do conteúdo de representação de
+dados](/unidades/1/imagens/mapa_parte_2.png)
 
 E por que é importante entender a representação de dados? Pensando no modelo
 geral de computação que estudamos na Parte 1 desta unidade, temos que fazer a
@@ -472,7 +476,7 @@ linguagem binária". Mas como esse sistema funciona? Intuitivamente o sistema
 binário funciona como se fosse o hodômetro de um carro. Como funciona o
 hodômetro de um carro? Veja a figura abaixo:
 
-![Hodômetro decimal de 0 a 10](imagens/hodometro_decimal_1.png)
+![Hodômetro decimal de 0 a 10](/unidades/1/imagens/hodometro_decimal_1.png)
 
 Cada "anel" do hodômetro de um carro tem gravado os dez algarismos, de 0 até 9,
 e a marcação da quilometragem percorrida é feita girando o anel. Quando o carro
@@ -485,14 +489,15 @@ ao sair de 9 para 10 quilômetros, o anel mais à direita "zerou" e ocorreu um
 vai 1** é fundamental para entender o hodômetro. Veja como ocorre o processo de
 **zera e vai 1** em outras quilometragens:
 
-![Hodômetro decimal, outros exemplos](imagens/hodometro_decimal_2.png)
+![Hodômetro decimal, outros
+exemplos](/unidades/1/imagens/hodometro_decimal_2.png)
 
 O funcionamento do **sistema binário** funciona exatamente da mesma forma que o
 hodômetro decimal, mas agora só temos dois algarismos. Imagine que você tem um
 carro com um hodômetro especial, um "hodômetro binário". Veja como esse
 hodômetro binário funciona:
 
-![Hodômetro binário](imagens/hodometro_binario.png)
+![Hodômetro binário](/unidades/1/imagens/hodometro_binario.png)
 
 Perceba que o funcionamento do hodômetro binário é exatamente o mesmo do
 hodômetro decimal, ou seja, toda vez que os algarismo de um anel se esgotam,
@@ -654,7 +659,7 @@ posição 1, então seu valor posicional é de $$4 \times 10^1 = 40$$; e o algar
 $$3$$ está na posição 2, então seu valor posicional é de $$3 \times 10^2 =
 300$$:
 
-![Decomposição do número 347](imagens/decomposicao_347.png)
+![Decomposição do número 347](/unidades/1/imagens/decomposicao_347.png)
 
 A decomposição numérica do número $$347$$ é, então:
 
@@ -668,7 +673,7 @@ $$\begin{split}
 O número $$5555$$ é formado por algarismos idênticos, mas cada um deles tem um
 **valor posicional** diferente:
 
-![Decomposição do número 5555](imagens/decomposicao_5555.png)
+![Decomposição do número 5555](/unidades/1/imagens/decomposicao_5555.png)
 
 A decomposição numérica do número $$5555$$ é, então:
 
@@ -690,7 +695,8 @@ $$(n_i \times 10^{i}) + (n_{i-1} \times 10^{i-1}) + (n_{i-2} \times 10^{i-2}) +
 
 Um exemplo de "quadro de valor posicional" do sistema decimal é mostrado abaixo:
 
-![Quadro posicional no sistema decimal](imagens/quadro_posicional_10.png)
+![Quadro posicional no sistema
+decimal](/unidades/1/imagens/quadro_posicional_10.png)
 
 
 ##### Sistema binário
@@ -712,7 +718,7 @@ Considere, como exemplo, o número binário $$10011$$. Para sabermos quanto vale
 esse número, basta fazer a decomposição e verificar o valor posicional de cada
 algarismo:
 
-![Decomposição 10011](imagens/decomposicao_10011.png)
+![Decomposição 10011](/unidades/1/imagens/decomposicao_10011.png)
 
 De modo geral, a **decomposição numérica** no sistema binário é dada por
 (lembre-se de que a posição $$i$$ de um algarismo é contada da direita para
@@ -725,7 +731,8 @@ $$(n_i \times 2^{i}) + (n_{i-1} \times 2^{i-1}) + (n_{i-2} \times 2^{i-2}) +
 
 Um exemplo de "quadro de valor posicional" do sistema binário é mostrado abaixo:
 
-![Quadro posicional no sistema binário](imagens/quadro_posicional_2.png)
+![Quadro posicional no sistema
+binário](/unidades/1/imagens/quadro_posicional_2.png)
 
 Podemos usar os valores das casas binárias como um "macete" para descobrir
 rapidamente o valor decimal de um número binário. Ao invés de fazermos a
@@ -733,7 +740,7 @@ decomposição com as posições, escrevemos sobre cada número binário o valor
 sua casa, e somamos os valores das casas que correspondem à algarismos "1", por
 exemplo:
 
-![Decomposição 101101](imagens/decomposicao_101101.png)
+![Decomposição 101101](/unidades/1/imagens/decomposicao_101101.png)
 
 {% alert "danger" %}
 Quando estamos comparando números entre diferentes sistemas, ou quando queremos
@@ -792,7 +799,8 @@ $$(n_i \times 8^{i}) + (n_{i-1} \times 8^{i-1}) + (n_{i-2} \times 8^{i-2}) +
 
 Um exemplo de "quadro de valor posicional" do sistema octal é mostrado abaixo:
 
-![Quadro posicional no sistema octal](imagens/quadro_posicional_8.png)
+![Quadro posicional no sistema
+octal](/unidades/1/imagens/quadro_posicional_8.png)
 
 
 ##### Sistema hexadecimal
@@ -809,7 +817,7 @@ até 15. O quadro abaixo mostra a relação entre os algarismos hexadecimais,
 decimais e binários. É extremamente importante que você memorize esse quadro
 (com o tempo):
 
-![Quadro de valores hexadecimais](imagens/quadro_hexadecimal.png)
+![Quadro de valores hexadecimais](/unidades/1/imagens/quadro_hexadecimal.png)
 
 {% alert "success" %}
 O valor posicional de um algarismo hexadecimal é dado por $$n_i \times 16^i$$,
@@ -849,7 +857,8 @@ $$(n_i \times 16^{i}) + (n_{i-1} \times 16^{i-1}) + (n_{i-2} \times 16^{i-2}) +
 
 Um exemplo de "quadro de valor posicional" do sistema octal é mostrado abaixo:
 
-![Quadro posicional no sistema hexadecimal](imagens/quadro_posicional_16.png)
+![Quadro posicional no sistema
+hexadecimal](/unidades/1/imagens/quadro_posicional_16.png)
 
 
 ##### Generalização para outros sistemas
@@ -866,17 +875,17 @@ As seguintes unidades de grandezas de base 10, maiores do que a unidade,
 padronizadas pelo Sistema Internacional de Unidades, são:
 
 ![Grandezas de base 10 maiores do que a
-unidade](imagens/unidades_decimais_maiores.png)
+unidade](/unidades/1/imagens/unidades_decimais_maiores.png)
 
 As seguintes unidades de grandezas de base 10, menores do que a unidade,
 padronizadas pelo Sistema Internacional de Unidades, são:
 
 ![Grandezas de base 10 menores do que a
-unidade](imagens/unidades_decimais_menores.png) 
+unidade](/unidades/1/imagens/unidades_decimais_menores.png) 
 
 Resumo das unidades:
 
-![Grandezas de base 10](imagens/unidades_decimais.png)
+![Grandezas de base 10](/unidades/1/imagens/unidades_decimais.png)
 
 #### Unidades de medida binária
 As unidades de medida no sistema binário, levam em consideração que:
@@ -893,7 +902,7 @@ seja, 1 Byte corresponde a 8 bits.
 
 As unidades binárias padronizadas são:
 
-![Grandezas de base 2](imagens/unidades_binarias.png)
+![Grandezas de base 2](/unidades/1/imagens/unidades_binarias.png)
 
 #### Comparação entre medidas decimais e binárias
 Os prefixos e símbolos das unidades decimais e binárias são diferentes pois as
@@ -901,7 +910,7 @@ unidades não correspondem exatamente entre si. As unidades binárias são sempr
 maiores do que as unidades decimais:
 
 ![Comparação de medidas decimais e
-binárias](imagens/unidades_decimais_binarias.png)
+binárias](/unidades/1/imagens/unidades_decimais_binarias.png)
 
 
 ### Representação de textos
@@ -927,7 +936,7 @@ números binários. Originalmente o ASCII utilizava 7 bits para representar os
 caracteres, significando que poderíamos mapear $$2^7 = 128$$ caracteres, na
 faixa de $$0$$ até $$127$$. A tabela de mapeamento ASCII original está a seguir:
 
-![Tabela ASCII](imagens/ascii.png)
+![Tabela ASCII](/unidades/1/imagens/ascii.png)
 
 O ASCII tem duas características principais:
 
@@ -944,11 +953,11 @@ utilizar 8 bits para mapear os caracteres. Agora o ASCII poderia mapear $$2^8 =
 256$$ caracteres, na faixa de $$0$$ até $$255$$. A tabela *Extended ASCII* está
 a seguir:
 
-![Tabela Extended ASCII](imagens/ascii_extended.png)
+![Tabela Extended ASCII](/unidades/1/imagens/ascii_extended.png)
 
 <i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
 [Clique aqui para fazer o download de um PDF com a tabela ASCII
-detalhada](ascii.pdf)
+detalhada](/unidades/1/ascii.pdf)
 
 Entretanto, mesmo com 256 caracteres mapeados, a maioria dos sistemas de escrita
 utilizados no mundo não tem representação no ASCII: caracteres cirílicos,
@@ -991,36 +1000,37 @@ estudos para assistir pequenas partes de cada vez, mas assista a todos os vídeo
 #### Conversão entre bases numéricas
 {% video https://www.youtube.com/watch?v=7u4lJQE2xOk %}
 <i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
-[Download dos slides do vídeo](unidade1_parte2_anexo1.pdf)
+[Download dos slides do vídeo](/unidades/1/unidade1_parte2_anexo1.pdf)
 
 #### Outros conceitos fundamentais sobre representação de dados numéricos
 {% video https://www.youtube.com/watch?v=MxdbxybOlmE %}
 <i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
-[Download dos slides do vídeo](unidade1_parte2_anexo2.pdf)
+[Download dos slides do vídeo](/unidades/1/unidade1_parte2_anexo2.pdf)
 
 #### Representação de números negativos em binário
 {% video https://www.youtube.com/watch?v=gLBV2iU_EbM %}
 <i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
-[Download dos slides do vídeo](unidade1_parte2_anexo3.pdf)
+[Download dos slides do vídeo](/unidades/1/unidade1_parte2_anexo3.pdf)
 
 #### Representação de números fracionários em binário
 {% video https://www.youtube.com/watch?v=QdOMYMvn2h8 %}
 <i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
-[Download dos slides do vídeo](unidade1_parte2_anexo4.pdf)
+[Download dos slides do vídeo](/unidades/1/unidade1_parte2_anexo4.pdf)
 
 #### BCD e expansão do sinal
 {% video https://www.youtube.com/watch?v=8Tl0I2Ihc0w %}
 <i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
-[Download dos slides do vídeo](unidade1_parte2_anexo5.pdf)
+[Download dos slides do vídeo](/unidades/1/unidade1_parte2_anexo5.pdf)
 
 
 ## PARTE 3: algoritmos
 {% video https://www.youtube.com/watch?v=NIy_YxAS570 %}
 <i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
-[Download dos slides do vídeo](unidade1_parte3.pdf)
+[Download dos slides do vídeo](/unidades/1/unidade1_parte3.pdf)
 
 <i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
-[Download do "Símbolos em Fluxogramas: Guia Simplificado"](simbolos_fluxogramas_guia_simplificado.pdf)
+[Download do "Símbolos em Fluxogramas: Guia
+Simplificado"](/unidades/1/simbolos_fluxogramas_guia_simplificado.pdf)
 
 (em breve)
 
@@ -1028,7 +1038,7 @@ estudos para assistir pequenas partes de cada vez, mas assista a todos os vídeo
 ## PARTE 4: pensamento computacional
 {% video https://www.youtube.com/watch?v=w4XK1nY-pMc %}
 <i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
-[Download dos slides do vídeo](unidade1_parte4.pdf)
+[Download dos slides do vídeo](/unidades/1/unidade1_parte4.pdf)
 
 (em breve)
 
@@ -1036,6 +1046,6 @@ estudos para assistir pequenas partes de cada vez, mas assista a todos os vídeo
 ## PARTE 5: abstração
 {% video https://www.youtube.com/watch?v=pPNKC6ii8cE %}
 <i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
-[Download dos slides do vídeo](unidade1_parte5.pdf)
+[Download dos slides do vídeo](/unidades/1/unidade1_parte5.pdf)
 
 (em breve)
