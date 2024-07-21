@@ -44,8 +44,13 @@ continuar, responda às seguintes perguntas:
 {% endalert %}
 
 **Sumário:**
-- PARTE 0: [visão geral da unidade](/unidades/3/#parte-0-visão-geral-da-unidade)
+- PARTE 1: [Olá, mundo!](/unidades/3/#parte-1-olá-mundo)
 
 
-## PARTE 0: visão geral da unidade
-(em breve)
+## PARTE 1: Olá, mundo!
+
+### Vídeo da parte 1: Olá, mundo
+(liberação do vídeo: 26/07/2029, 17:00h)
+{% video https://www.youtube.com/watch?v=feoEexna01E %}
+<i class="fa-light fa-download"></i> <i class="fa-light fa-file-pdf"></i>
+[Download dos slides do vídeo](/unidades/3/unidade3_parte1.pdf)
