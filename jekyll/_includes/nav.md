@@ -3,7 +3,7 @@
 <hr />
 * [<i class="fa-duotone fa-browser"></i> Visual Studio Code for
   CS50](https://cs50.dev)
-* [<i class="fa-solid fa-computer"></i> Máquina Virtual Linux](https://we.tl/t-bK9ZIRkT4G)
+* [<i class="fa-solid fa-computer"></i> Máquina Virtual Linux](https://www.computacaoraiz.com.br/2024/07/16/lingprog-4-1/)
 * [<i class="fa-solid fa-duck pe-2 text-decoration-none"></i> CS50.ai](https://cs50.ai/)
 * [<i class="fa-regular fa-square-dollar"></i> Matricule-se](/matriculas)
 * [<i class="fa-solid fa-hundred-points"></i> Autolab](https://autolab.computacaoraiz.com.br)
@@ -38,8 +38,10 @@
 * Syllabus
 <hr />
 * [<i class="fa-regular fa-book"></i> CS50 Manual Pages](https://manual.cs50.io/)
+* [<i class="fa-regular fa-book"></i> CS50 C Style Guide](https://cs50.readthedocs.io/style/c/)
 * [<i class="fa-regular fa-book"></i> C Tutorial](https://www.w3schools.com/c/)
 * [<i class="fa-regular fa-book"></i> Python Docs](https://docs.python.org/3/)
+* [<i class="fa-regular fa-book"></i> Python Style Guide](https://peps.python.org/pep-0008/)
 * [<i class="fa-regular fa-book"></i> HTML Tutorial](https://www.w3schools.com/html/)
 * [<i class="fa-regular fa-book"></i> CSS Tutorial](https://www.w3schools.com/css/)
 * [<i class="fa-regular fa-book"></i> JavaScript Tutorial](https://www.w3schools.com/js/)
