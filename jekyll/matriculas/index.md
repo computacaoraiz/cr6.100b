@@ -71,9 +71,11 @@ oferece:
        é a opção ideal. Contribuindo com essa assinatura mensal você terá os
        seguintes benefícios:
          * Tudo o que os "Membros" têm acesso
-         * Lives bimestrais
-         * Pautar lives (escolhendo entre as opções disponíveis)
-         * Prioridade nas lives
+         * Série de **vídeos especiais** (de 1 a 2 por mês), tratando de
+           diversos assuntos da ciência da computação (ver a seção [informações
+           importantes](#informações-importantes))
+         * Pautar a série de **vídeos especiais** (escolhendo entre as opções
+           disponíveis)
          * 5% de desconto em cursos futuros
 0. **Autolab para a CR6.100B**: R$ 49,99 por mês (disponível a partir de
    15/ago/2024)
@@ -86,11 +88,9 @@ oferece:
        seguintes benefícios:
          * Tudo o que os "Apoiadores" têm acesso
          * Acesso ao Autolab do Computação Raiz
-         * Série de **vídeos especiais** (de 1 a 2 por mês), tratando de
-           diversos assuntos da ciência da computação (ver a seção [informações
-           importantes](#informações-importantes))
-         * Pautar a série de **vídeos especiais** (escolhendo entre as opções
-           disponíveis)
+         * Lives bimestrais
+         * Pautar lives (escolhendo entre as opções disponíveis)
+         * Prioridade nas lives
          * Agradecimentos e menções nas descrições dos vídeos
          * 10% de desconto em cursos futuros
 0. **AVA para a CR6.100B**: R$ 99,99 por mês (disponível a partir de
@@ -143,8 +143,8 @@ oferece:
 * Os **vídeos especiais** tratarão de diversos assuntos interessantes da ciência
   da computação, e serão escolhidos pelos próprios alunos a partir de uma lista
   pré-definida pelo Computação Raiz. Esses vídeos especiais permanecerão de
-  acesso exclusivo dos membros pelo prazo de 3 meses. Após esse prazo o vídeo
-  será liberado ao público geral;
+  acesso exclusivo dos apoiadores pelo prazo de 1 ano. Após esse prazo o vídeo
+  será liberado também aos membros;
 * Os **vídeos exclusivos** tratarão de diversos assuntos que foram discutidos no
   AVA, em aulas gravadas, monitorias ou nos fóruns de discussão do AVA. Esses
   vídeos não serão liberados ao público geral e permanecerão de acesso permitido
@@ -161,7 +161,10 @@ atente-se para o fato de que:
   complicação nenhuma, sem necessidade de aviso prévio; e
 * **O Computação Raiz** reserva-se o direito de, em seu único e exclusivo
   critério e julgamento, cancelar um, alguns ou todos os programas de
-  assinatura, sem necessidade de aviso prévio.
+  assinatura, sem necessidade de aviso prévio. Também reservamos o direito de
+  alterar os benefícios oferecidos em todas as opções de matrículas e
+  assinaturas, sem necessidade de aviso prévio, para incluir e/ou remover
+  benefícios.
 {% endalert %}
 
 {% alert primary %}
